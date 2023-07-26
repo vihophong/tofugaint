@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+ <define>
+ <position name="holder00826_v0" unit="mm" x="-272.355202155" y="1080.66768429" z="350.0"/>
+ <position name="holder00826_v1" unit="mm" x="-272.355202155" y="1080.66768429" z="430.0"/>
+ <position name="holder00826_v2" unit="mm" x="-273.004520997" y="1083.59657231" z="350.0"/>
+ <position name="holder00826_v3" unit="mm" x="-273.004520997" y="1083.59657231" z="430.0"/>
+ <position name="holder00826_v4" unit="mm" x="-209.872257699" y="1094.51981958" z="350.0"/>
+ <position name="holder00826_v5" unit="mm" x="-209.872257699" y="1094.51981958" z="430.0"/>
+ <position name="holder00826_v6" unit="mm" x="-210.521576541" y="1097.4487076" z="350.0"/>
+ <position name="holder00826_v7" unit="mm" x="-210.521576541" y="1097.4487076" z="430.0"/>
+ </define>
+
+ <solids>
+ <tessellated aunit="deg" lunit="mm" name="holder00826_solid">
+ <triangular vertex1="holder00826_v0" vertex2="holder00826_v1" vertex3="holder00826_v2"/>
+ <triangular vertex1="holder00826_v1" vertex2="holder00826_v3" vertex3="holder00826_v2"/>
+ <triangular vertex1="holder00826_v0" vertex2="holder00826_v4" vertex3="holder00826_v1"/>
+ <triangular vertex1="holder00826_v4" vertex2="holder00826_v5" vertex3="holder00826_v1"/>
+ <triangular vertex1="holder00826_v4" vertex2="holder00826_v6" vertex3="holder00826_v7"/>
+ <triangular vertex1="holder00826_v5" vertex2="holder00826_v4" vertex3="holder00826_v7"/>
+ <triangular vertex1="holder00826_v6" vertex2="holder00826_v2" vertex3="holder00826_v7"/>
+ <triangular vertex1="holder00826_v2" vertex2="holder00826_v3" vertex3="holder00826_v7"/>
+ <triangular vertex1="holder00826_v7" vertex2="holder00826_v3" vertex3="holder00826_v1"/>
+ <triangular vertex1="holder00826_v7" vertex2="holder00826_v1" vertex3="holder00826_v5"/>
+ <triangular vertex1="holder00826_v0" vertex2="holder00826_v2" vertex3="holder00826_v6"/>
+ <triangular vertex1="holder00826_v4" vertex2="holder00826_v0" vertex3="holder00826_v6"/>
+ </tessellated>
+ <box lunit="mm" name="worldsolid" x="1000" y="1000" z="1000"/>
+ </solids>
+ <structure>
+ <volume name="holder00826">
+ <materialref ref="G4_Si"/>
+ <solidref ref="holder00826_solid"/>
+ </volume>
+ </structure>
+ <setup name="Default" version="1.0">
+ <world ref="holder00826"/>
+ </setup>
+</gdml>

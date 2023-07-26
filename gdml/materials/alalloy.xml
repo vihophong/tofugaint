@@ -1,0 +1,19 @@
+</define>
+
+<materials>
+<element Z="13" formula="Al" name="Aluminium" >
+  <atom type="A" value="26.982" />
+</element>
+<element Z="12" formula="Mg" name="Magnesium" >
+  <atom type="A" value="24.305" />
+</element>
+<element Z="14" formula="Si" name="Silicon" >
+  <atom type="A" value="28.085" />
+</element>
+<material name="AluminiumAlloy6063" formula=" ">
+  <D value="2.69"/>
+  <fraction n="0.9935" ref="Aluminium" />
+  <fraction n="0.0045" ref="Magnesium" />
+  <fraction n="0.002" ref="Silicon" />
+</material>
+</materials>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gdml xmlns:gdml="../schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../schema/gdml.xsd" >
+<define>
+<position name="center" x="0" y="0" z="0"/>
+<rotation name="identity" x="0" y="0" z="0"/>
+</define>
+<materials>
+<element name="Vacuum_el"  formula="Hv" Z="1">
+<atom value="1.008"/>
+</element> 
+<material name="Vacuum_ref">
+<D value="0.0000000000000000000001" unit="mg/cm3"/>
+<fraction n="1.0" ref="Vacuum_el"/>
+</material>
+</materials>
+<solids>
+<box name="WorldBox" x="1.0" y="1.0" z="1.0" lunit="m"/>
+</solids>
+<structure>
+<volume name="World">
+<materialref ref="Vacuum_ref"/>
+<solidref ref="WorldBox"/>
+<physvol>
+<file name="Volumes/joins1.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/joins2.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/joins3.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/joins4.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/joins5.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/joins6.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/joins7.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/joins8.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/joins9.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/joins10.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/joins11.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/joins12.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/joins13.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/joins14.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/joins15.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/joins16.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/joins17.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/joins18.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/joins19.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/joins20.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/joins21.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/joins22.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/joins23.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/joins24.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/joins25.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/joins26.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/joins27.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/joins28.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/joins29.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/joins30.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/joins31.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/joins32.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/joins33.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/joins34.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/joins35.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/joins36.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/joins37.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/joins38.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/joins39.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/joins40.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+</volume>
+</structure>
+<setup name="Default" version="1.0">
+<world ref="World"/>
+</setup>
+</gdml>

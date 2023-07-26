@@ -1,0 +1,2188 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gdml xmlns:gdml="../schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../schema/gdml.xsd" >
+<define>
+<position name="center" x="0" y="0" z="0"/>
+<rotation name="identity" x="0" y="0" z="0"/>
+</define>
+<materials>
+<element name="Vacuum_el"  formula="Hv" Z="1">
+<atom value="1.008"/>
+</element> 
+<material name="Vacuum_ref">
+<D value="0.0000000000000000000001" unit="mg/cm3"/>
+<fraction n="1.0" ref="Vacuum_el"/>
+</material>
+</materials>
+<solids>
+<box name="WorldBox" x="1.0" y="1.0" z="1.0" lunit="m"/>
+</solids>
+<structure>
+<volume name="World">
+<materialref ref="Vacuum_ref"/>
+<solidref ref="WorldBox"/>
+<physvol>
+<file name="Volumes/holder1.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder2.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder3.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder0014.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder0015.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder0016.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder0027.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder0028.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder0029.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder00310.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder00311.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder00312.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder00413.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder00414.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder00415.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder00516.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder00517.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder00518.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder00619.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder00620.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder00621.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder00722.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder00723.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder00724.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder00825.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder00826.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder00827.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder00928.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder00929.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder00930.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder01031.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder01032.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder01033.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder01134.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder01135.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder01136.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder01237.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder01238.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder01239.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder01340.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder01341.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder01342.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder01443.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder01444.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder01445.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder01546.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder01547.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder01548.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder01649.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder01650.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder01651.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder01752.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder01753.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder01754.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder01855.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder01856.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder01857.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder01958.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder01959.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder01960.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder02061.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder02062.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder02063.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder02164.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder02165.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder02166.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder02267.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder02268.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder02269.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder02370.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder02371.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder02372.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder02473.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder02474.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder02475.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder02576.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder02577.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder02578.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder02679.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder02680.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder02681.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder02782.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder02783.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder02784.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder02885.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder02886.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder02887.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder02988.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder02989.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder02990.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder03091.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder03092.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder03093.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder03194.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder03195.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder03196.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder03297.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder03298.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder03299.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder033100.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder033101.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder033102.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder034103.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder034104.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder034105.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder035106.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder035107.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder035108.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder036109.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder036110.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder036111.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder037112.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder037113.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder037114.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder038115.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder038116.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder038117.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder039118.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder039119.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder039120.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder040121.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder040122.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder040123.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder041124.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder041125.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder041126.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder042127.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder042128.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder042129.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder043130.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder043131.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder043132.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder044133.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder044134.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder044135.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder045136.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder045137.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder045138.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder046139.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder046140.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder046141.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder047142.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder047143.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder047144.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder048145.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder048146.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder048147.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder049148.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder049149.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder049150.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder050151.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder050152.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder050153.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder051154.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder051155.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder051156.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder052157.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder052158.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder052159.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder053160.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder053161.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder053162.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder054163.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder054164.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder054165.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder055166.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder055167.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder055168.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder056169.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder056170.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder056171.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder057172.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder057173.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder057174.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder058175.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder058176.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder058177.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder059178.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder059179.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder059180.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder060181.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder060182.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder060183.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder061184.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder061185.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder061186.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder062187.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder062188.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder062189.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder063190.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder063191.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder063192.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder064193.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder064194.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder064195.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder065196.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder065197.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder065198.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder066199.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder066200.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder066201.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder067202.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder067203.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder067204.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder068205.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder068206.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder068207.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder069208.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder069209.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder069210.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder070211.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder070212.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder070213.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder071214.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder071215.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder071216.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder072217.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder072218.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder072219.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder073220.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder073221.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder073222.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder074223.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder074224.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder074225.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder075226.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder075227.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder075228.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder076229.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder076230.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder076231.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder077232.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder077233.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder077234.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder078235.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder078236.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder078237.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder079238.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder079239.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder079240.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder080241.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder080242.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder080243.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder081244.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder081245.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder081246.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder082247.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder082248.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder082249.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder083250.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder083251.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder083252.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder084253.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder084254.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder084255.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder085256.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder085257.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder085258.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder086259.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder086260.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder086261.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder087262.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder087263.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder087264.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder088265.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder088266.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder088267.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder089268.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder089269.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder089270.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder090271.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder090272.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder090273.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder091274.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder091275.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder091276.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder092277.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder092278.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder092279.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder093280.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder093281.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder093282.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder094283.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder094284.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder094285.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder095286.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder095287.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder095288.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder096289.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder096290.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder096291.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder097292.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder097293.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder097294.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder098295.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder098296.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder098297.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder099298.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder099299.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder099300.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder100301.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder100302.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder100303.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder101304.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder101305.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder101306.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder102307.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder102308.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder102309.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder103310.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder103311.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder103312.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder104313.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder104314.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder104315.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder105316.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder105317.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder105318.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder106319.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder106320.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder106321.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder107322.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder107323.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder107324.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder108325.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder108326.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder108327.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder109328.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder109329.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder109330.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder110331.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder110332.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder110333.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder111334.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder111335.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder111336.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder112337.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder112338.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder112339.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder113340.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder113341.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder113342.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder114343.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder114344.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder114345.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder115346.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder115347.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder115348.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder116349.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder116350.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder116351.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder117352.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder117353.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder117354.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder118355.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder118356.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder118357.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder119358.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder119359.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder119360.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder120361.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder120362.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder120363.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder121364.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder121365.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder121366.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder122367.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder122368.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder122369.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder123370.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder123371.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder123372.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder124373.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder124374.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder124375.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder125376.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder125377.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder125378.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder126379.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder126380.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder126381.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder127382.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder127383.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder127384.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder128385.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder128386.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder128387.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder129388.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder129389.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder129390.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder130391.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder130392.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder130393.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder131394.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder131395.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder131396.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder132397.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder132398.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder132399.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder133400.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder133401.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder133402.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder134403.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder134404.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder134405.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder135406.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder135407.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder135408.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder136409.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder136410.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder136411.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder137412.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder137413.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder137414.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder138415.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder138416.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder138417.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder139418.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder139419.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder139420.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder140421.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder140422.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder140423.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder141424.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder141425.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder141426.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder142427.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder142428.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder142429.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder143430.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder143431.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="Volumes/holder143432.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+</volume>
+</structure>
+<setup name="Default" version="1.0">
+<world ref="World"/>
+</setup>
+</gdml>

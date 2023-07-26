@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+ <define>
+ <position name="holder108326_v0" unit="mm" x="1048.0495128" y="364.001674074" z="-430.0"/>
+ <position name="holder108326_v1" unit="mm" x="1045.18836194" y="363.099556675" z="-430.0"/>
+ <position name="holder108326_v2" unit="mm" x="1048.0495128" y="364.001674074" z="-350.0"/>
+ <position name="holder108326_v3" unit="mm" x="1045.18836194" y="363.099556675" z="-350.0"/>
+ <position name="holder108326_v4" unit="mm" x="1067.29468396" y="302.963789226" z="-350.0"/>
+ <position name="holder108326_v5" unit="mm" x="1067.29468396" y="302.963789226" z="-430.0"/>
+ <position name="holder108326_v6" unit="mm" x="1064.43353311" y="302.061671828" z="-350.0"/>
+ <position name="holder108326_v7" unit="mm" x="1064.43353311" y="302.061671828" z="-430.0"/>
+ </define>
+
+<materials>
+  <element Z="26" formula="Fe" name="Iron" >
+   <atom value="55.845" />
+  </element>
+  <element Z="24" formula="Cr" name="Chromium" >
+   <atom value="51.996" />
+  </element>
+  <element Z="28" formula="Ni" name="Nickel" >
+   <atom value="58.693" />
+  </element>
+  <material formula=" " name="STAINLESS-STEEL_G4" >
+   <D value="0.0012899999999999999" />
+   <composite n="74" ref="Iron" />
+   <composite n="18" ref="Chromium" />
+   <composite n="8" ref="Nickel" />
+  </material>
+</materials>
+
+ <solids>
+ <tessellated aunit="deg" lunit="mm" name="holder108326_solid">
+ <triangular vertex1="holder108326_v0" vertex2="holder108326_v1" vertex3="holder108326_v2"/>
+ <triangular vertex1="holder108326_v2" vertex2="holder108326_v1" vertex3="holder108326_v3"/>
+ <triangular vertex1="holder108326_v2" vertex2="holder108326_v4" vertex3="holder108326_v0"/>
+ <triangular vertex1="holder108326_v4" vertex2="holder108326_v5" vertex3="holder108326_v0"/>
+ <triangular vertex1="holder108326_v4" vertex2="holder108326_v6" vertex3="holder108326_v5"/>
+ <triangular vertex1="holder108326_v5" vertex2="holder108326_v6" vertex3="holder108326_v7"/>
+ <triangular vertex1="holder108326_v6" vertex2="holder108326_v3" vertex3="holder108326_v7"/>
+ <triangular vertex1="holder108326_v3" vertex2="holder108326_v1" vertex3="holder108326_v7"/>
+ <triangular vertex1="holder108326_v7" vertex2="holder108326_v1" vertex3="holder108326_v0"/>
+ <triangular vertex1="holder108326_v7" vertex2="holder108326_v0" vertex3="holder108326_v5"/>
+ <triangular vertex1="holder108326_v2" vertex2="holder108326_v3" vertex3="holder108326_v6"/>
+ <triangular vertex1="holder108326_v4" vertex2="holder108326_v2" vertex3="holder108326_v6"/>
+ </tessellated>
+ <box lunit="mm" name="worldsolid" x="1000" y="1000" z="1000"/>
+ </solids>
+ <structure>
+ <volume name="holder108326">
+ <materialref ref="STAINLESS-STEEL_G4"/>
+ <solidref ref="holder108326_solid"/>
+ </volume>
+ </structure>
+ <setup name="Default" version="1.0">
+ <world ref="holder108326"/>
+ </setup>
+</gdml>

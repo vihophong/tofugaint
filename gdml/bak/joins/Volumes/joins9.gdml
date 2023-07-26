@@ -1,0 +1,1004 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+ <define>
+ <position name="joins9_v0" unit="mm" x="430.48521504" y="1195.00000074" z="405.0"/>
+ <position name="joins9_v1" unit="mm" x="430.485214302" y="1185.99999937" z="405.0"/>
+ <position name="joins9_v2" unit="mm" x="430.638548084" y="1185.99999937" z="403.835314297"/>
+ <position name="joins9_v3" unit="mm" x="430.638548822" y="1195.00000073" z="403.835314297"/>
+ <position name="joins9_v4" unit="mm" x="431.088100723" y="1195.00000069" z="402.75"/>
+ <position name="joins9_v5" unit="mm" x="431.088099985" y="1185.99999937" z="402.75"/>
+ <position name="joins9_v6" unit="mm" x="431.803234525" y="1195.00000063" z="401.818019485"/>
+ <position name="joins9_v7" unit="mm" x="431.803233787" y="1185.99999937" z="401.818019485"/>
+ <position name="joins9_v8" unit="mm" x="432.73521504" y="1195.00000056" z="401.102885683"/>
+ <position name="joins9_v9" unit="mm" x="432.735214302" y="1185.99999937" z="401.102885683"/>
+ <position name="joins9_v10" unit="mm" x="433.820529337" y="1195.00000047" z="400.653333782"/>
+ <position name="joins9_v11" unit="mm" x="433.820528599" y="1185.99999937" z="400.653333782"/>
+ <position name="joins9_v12" unit="mm" x="434.98521504" y="1195.00000037" z="400.5"/>
+ <position name="joins9_v13" unit="mm" x="434.985214302" y="1185.99999937" z="400.5"/>
+ <position name="joins9_v14" unit="mm" x="436.149900743" y="1195.00000028" z="400.653333782"/>
+ <position name="joins9_v15" unit="mm" x="436.149900005" y="1185.99999937" z="400.653333782"/>
+ <position name="joins9_v16" unit="mm" x="437.23521504" y="1195.00000019" z="401.102885683"/>
+ <position name="joins9_v17" unit="mm" x="437.235214302" y="1185.99999937" z="401.102885683"/>
+ <position name="joins9_v18" unit="mm" x="438.167195555" y="1195.00000011" z="401.818019485"/>
+ <position name="joins9_v19" unit="mm" x="438.167194817" y="1185.99999937" z="401.818019485"/>
+ <position name="joins9_v20" unit="mm" x="438.882329357" y="1195.00000005" z="402.75"/>
+ <position name="joins9_v21" unit="mm" x="438.882328619" y="1185.99999937" z="402.75"/>
+ <position name="joins9_v22" unit="mm" x="439.331881258" y="1195.00000001" z="403.835314297"/>
+ <position name="joins9_v23" unit="mm" x="439.33188052" y="1185.99999937" z="403.835314297"/>
+ <position name="joins9_v24" unit="mm" x="439.48521504" y="1195.0" z="405.0"/>
+ <position name="joins9_v25" unit="mm" x="439.485214302" y="1185.99999937" z="405.0"/>
+ <position name="joins9_v26" unit="mm" x="534.338061525" y="1155.64714706" z="403.835314297"/>
+ <position name="joins9_v27" unit="mm" x="534.229638177" y="1155.75557043" z="405.0"/>
+ <position name="joins9_v28" unit="mm" x="527.865676624" y="1149.39160992" z="405.0"/>
+ <position name="joins9_v29" unit="mm" x="534.655942696" y="1155.32926584" z="402.75"/>
+ <position name="joins9_v30" unit="mm" x="527.974099972" y="1149.28318655" z="403.835314297"/>
+ <position name="joins9_v31" unit="mm" x="535.161618616" y="1154.82358983" z="401.818019485"/>
+ <position name="joins9_v32" unit="mm" x="528.291981144" y="1148.96530533" z="402.75"/>
+ <position name="joins9_v33" unit="mm" x="535.820628304" y="1154.16458004" z="401.102885683"/>
+ <position name="joins9_v34" unit="mm" x="528.797657063" y="1148.45962932" z="401.818019485"/>
+ <position name="joins9_v35" unit="mm" x="536.58806134" y="1153.39714687" z="400.653333782"/>
+ <position name="joins9_v36" unit="mm" x="529.456666751" y="1147.80061953" z="401.102885683"/>
+ <position name="joins9_v37" unit="mm" x="537.411618431" y="1152.57358965" z="400.5"/>
+ <position name="joins9_v38" unit="mm" x="530.224099787" y="1147.03318637" z="400.653333782"/>
+ <position name="joins9_v39" unit="mm" x="538.235175522" y="1151.75003242" z="400.653333782"/>
+ <position name="joins9_v40" unit="mm" x="531.047656878" y="1146.20962914" z="400.5"/>
+ <position name="joins9_v41" unit="mm" x="539.002608558" y="1150.98259926" z="401.102885683"/>
+ <position name="joins9_v42" unit="mm" x="531.871213969" y="1145.38607191" z="400.653333782"/>
+ <position name="joins9_v43" unit="mm" x="539.661618246" y="1150.32358946" z="401.818019485"/>
+ <position name="joins9_v44" unit="mm" x="532.638647006" y="1144.61863875" z="401.102885683"/>
+ <position name="joins9_v45" unit="mm" x="540.167294166" y="1149.81791346" z="402.75"/>
+ <position name="joins9_v46" unit="mm" x="533.297656694" y="1143.95962896" z="401.818019485"/>
+ <position name="joins9_v47" unit="mm" x="540.485175337" y="1149.50003224" z="403.835314297"/>
+ <position name="joins9_v48" unit="mm" x="533.803332613" y="1143.45395295" z="402.75"/>
+ <position name="joins9_v49" unit="mm" x="540.593598685" y="1149.39160887" z="405.0"/>
+ <position name="joins9_v50" unit="mm" x="534.121213785" y="1143.13607173" z="403.835314297"/>
+ <position name="joins9_v51" unit="mm" x="534.229637133" y="1143.02764836" z="405.0"/>
+ <position name="joins9_v52" unit="mm" x="439.331881258" y="1195.00000001" z="406.164685703"/>
+ <position name="joins9_v53" unit="mm" x="438.882329357" y="1195.00000005" z="407.25"/>
+ <position name="joins9_v54" unit="mm" x="439.33188052" y="1185.99999937" z="406.164685703"/>
+ <position name="joins9_v55" unit="mm" x="438.167195555" y="1195.00000011" z="408.181980515"/>
+ <position name="joins9_v56" unit="mm" x="438.882328619" y="1185.99999937" z="407.25"/>
+ <position name="joins9_v57" unit="mm" x="437.23521504" y="1195.00000019" z="408.897114317"/>
+ <position name="joins9_v58" unit="mm" x="438.167194817" y="1185.99999937" z="408.181980515"/>
+ <position name="joins9_v59" unit="mm" x="436.149900743" y="1195.00000028" z="409.346666218"/>
+ <position name="joins9_v60" unit="mm" x="437.235214302" y="1185.99999937" z="408.897114317"/>
+ <position name="joins9_v61" unit="mm" x="434.98521504" y="1195.00000037" z="409.5"/>
+ <position name="joins9_v62" unit="mm" x="436.149900005" y="1185.99999937" z="409.346666218"/>
+ <position name="joins9_v63" unit="mm" x="433.820529337" y="1195.00000047" z="409.346666218"/>
+ <position name="joins9_v64" unit="mm" x="434.985214302" y="1185.99999937" z="409.5"/>
+ <position name="joins9_v65" unit="mm" x="432.73521504" y="1195.00000056" z="408.897114317"/>
+ <position name="joins9_v66" unit="mm" x="433.820528599" y="1185.99999937" z="409.346666218"/>
+ <position name="joins9_v67" unit="mm" x="431.803234525" y="1195.00000063" z="408.181980515"/>
+ <position name="joins9_v68" unit="mm" x="432.735214302" y="1185.99999937" z="408.897114317"/>
+ <position name="joins9_v69" unit="mm" x="431.088100723" y="1195.00000069" z="407.25"/>
+ <position name="joins9_v70" unit="mm" x="431.803233787" y="1185.99999937" z="408.181980515"/>
+ <position name="joins9_v71" unit="mm" x="430.638548822" y="1195.00000073" z="406.164685703"/>
+ <position name="joins9_v72" unit="mm" x="431.088099985" y="1185.99999937" z="407.25"/>
+ <position name="joins9_v73" unit="mm" x="430.638548084" y="1185.99999937" z="406.164685703"/>
+ <position name="joins9_v74" unit="mm" x="444.786318298" y="1185.99999937" z="390.0"/>
+ <position name="joins9_v75" unit="mm" x="425.98521456" y="1185.99999937" z="390.0"/>
+ <position name="joins9_v76" unit="mm" x="444.786318298" y="1185.99999937" z="420.0"/>
+ <position name="joins9_v77" unit="mm" x="425.98521456" y="1185.99999937" z="420.0"/>
+ <position name="joins9_v78" unit="mm" x="425.985214561" y="1195.0" z="390.0"/>
+ <position name="joins9_v79" unit="mm" x="425.985214561" y="1195.0" z="420.0"/>
+ <position name="joins9_v80" unit="mm" x="492.914146988" y="1195.0" z="390.0"/>
+ <position name="joins9_v81" unit="mm" x="492.914146988" y="1195.0" z="420.0"/>
+ <position name="joins9_v82" unit="mm" x="425.726395515" y="1186.03407354" z="390.0"/>
+ <position name="joins9_v83" unit="mm" x="425.726395515" y="1186.03407354" z="420.0"/>
+ <position name="joins9_v84" unit="mm" x="425.48521456" y="1186.13397396" z="420.0"/>
+ <position name="joins9_v85" unit="mm" x="425.48521456" y="1186.13397396" z="390.0"/>
+ <position name="joins9_v86" unit="mm" x="425.278107779" y="1186.29289259" z="420.0"/>
+ <position name="joins9_v87" unit="mm" x="425.278107779" y="1186.29289259" z="390.0"/>
+ <position name="joins9_v88" unit="mm" x="425.119189156" y="1186.49999937" z="420.0"/>
+ <position name="joins9_v89" unit="mm" x="425.119189156" y="1186.49999937" z="390.0"/>
+ <position name="joins9_v90" unit="mm" x="425.019288734" y="1186.74118032" z="420.0"/>
+ <position name="joins9_v91" unit="mm" x="425.019288734" y="1186.74118032" z="390.0"/>
+ <position name="joins9_v92" unit="mm" x="424.98521456" y="1186.99999937" z="420.0"/>
+ <position name="joins9_v93" unit="mm" x="424.98521456" y="1186.99999937" z="390.0"/>
+ <position name="joins9_v94" unit="mm" x="544.034398082" y="1145.24370207" z="420.0"/>
+ <position name="joins9_v95" unit="mm" x="544.068472277" y="1145.50252111" z="420.0"/>
+ <position name="joins9_v96" unit="mm" x="544.034398125" y="1145.76134016" z="420.0"/>
+ <position name="joins9_v97" unit="mm" x="543.934497722" y="1146.00252113" z="420.0"/>
+ <position name="joins9_v98" unit="mm" x="543.775579116" y="1146.20962792" z="420.0"/>
+ <position name="joins9_v99" unit="mm" x="543.93449764" y="1145.00252113" z="420.0"/>
+ <position name="joins9_v100" unit="mm" x="543.775579" y="1144.79541436" z="420.0"/>
+ <position name="joins9_v101" unit="mm" x="538.377543369" y="1139.58684829" z="420.0"/>
+ <position name="joins9_v102" unit="mm" x="538.618724332" y="1139.68674869" z="420.0"/>
+ <position name="joins9_v103" unit="mm" x="538.825831126" y="1139.84566729" z="420.0"/>
+ <position name="joins9_v104" unit="mm" x="537.859905279" y="1139.58684833" z="420.0"/>
+ <position name="joins9_v105" unit="mm" x="538.118724321" y="1139.55277413" z="420.0"/>
+ <position name="joins9_v106" unit="mm" x="537.618724332" y="1139.68674877" z="420.0"/>
+ <position name="joins9_v107" unit="mm" x="537.411617564" y="1139.84566741" z="420.0"/>
+ <position name="joins9_v108" unit="mm" x="524.117240832" y="1153.14004632" z="420.0"/>
+ <position name="joins9_v109" unit="mm" x="520.640807736" y="1161.36484828" z="420.0"/>
+ <position name="joins9_v110" unit="mm" x="524.018895491" y="1153.22629289" z="420.0"/>
+ <position name="joins9_v111" unit="mm" x="523.910134073" y="1153.29896496" z="420.0"/>
+ <position name="joins9_v112" unit="mm" x="520.587089551" y="1161.91025865" z="420.0"/>
+ <position name="joins9_v113" unit="mm" x="520.544462648" y="1160.82533393" z="420.0"/>
+ <position name="joins9_v114" unit="mm" x="523.792817517" y="1153.3568191" z="420.0"/>
+ <position name="joins9_v115" unit="mm" x="520.387341766" y="1162.42061042" z="420.0"/>
+ <position name="joins9_v116" unit="mm" x="520.305288795" y="1160.33222747" z="420.0"/>
+ <position name="joins9_v117" unit="mm" x="520.056563349" y="1162.85758153" z="420.0"/>
+ <position name="joins9_v118" unit="mm" x="519.941245628" y="1159.92255603" z="420.0"/>
+ <position name="joins9_v119" unit="mm" x="519.479668977" y="1159.62708166" z="420.0"/>
+ <position name="joins9_v120" unit="mm" x="518.955218414" y="1159.46799137" z="420.0"/>
+ <position name="joins9_v121" unit="mm" x="518.407274685" y="1159.45723119" z="420.0"/>
+ <position name="joins9_v122" unit="mm" x="517.876982626" y="1159.59560909" z="420.0"/>
+ <position name="joins9_v123" unit="mm" x="496.449681184" y="1193.53553362" z="420.0"/>
+ <position name="joins9_v124" unit="mm" x="499.999935881" y="1182.86602411" z="420.0"/>
+ <position name="joins9_v125" unit="mm" x="500.207042688" y="1182.70710545" z="420.0"/>
+ <position name="joins9_v126" unit="mm" x="499.758754886" y="1182.96592455" z="420.0"/>
+ <position name="joins9_v127" unit="mm" x="499.499935795" y="1182.99999872" z="420.0"/>
+ <position name="joins9_v128" unit="mm" x="495.422976392" y="1182.9999985" z="420.0"/>
+ <position name="joins9_v129" unit="mm" x="495.148935566" y="1182.96171655" z="420.0"/>
+ <position name="joins9_v130" unit="mm" x="494.895876375" y="1182.84980172" z="420.0"/>
+ <position name="joins9_v131" unit="mm" x="495.414147224" y="1194.33012688" z="420.0"/>
+ <position name="joins9_v132" unit="mm" x="494.208242345" y="1194.8296291" z="420.0"/>
+ <position name="joins9_v133" unit="mm" x="489.28484345" y="1171.43886418" z="420.0"/>
+ <position name="joins9_v134" unit="mm" x="486.642650989" y="1179.78233952" z="420.0"/>
+ <position name="joins9_v135" unit="mm" x="489.939193201" y="1178.15581443" z="420.0"/>
+ <position name="joins9_v136" unit="mm" x="490.123784997" y="1178.34040626" z="420.0"/>
+ <position name="joins9_v137" unit="mm" x="486.642650918" y="1179.52128727" z="420.0"/>
+ <position name="joins9_v138" unit="mm" x="489.808667069" y="1177.92973655" z="420.0"/>
+ <position name="joins9_v139" unit="mm" x="486.575085798" y="1180.03449665" z="420.0"/>
+ <position name="joins9_v140" unit="mm" x="490.349862845" y="1178.47093244" z="420.0"/>
+ <position name="joins9_v141" unit="mm" x="486.575085591" y="1179.26913017" z="420.0"/>
+ <position name="joins9_v142" unit="mm" x="486.48215815" y="1186.06979548" z="420.0"/>
+ <position name="joins9_v143" unit="mm" x="494.68317401" y="1182.67282267" z="420.0"/>
+ <position name="joins9_v144" unit="mm" x="486.456897991" y="1186.34534187" z="420.0"/>
+ <position name="joins9_v145" unit="mm" x="486.444559796" y="1180.2605746" z="420.0"/>
+ <position name="joins9_v146" unit="mm" x="490.602019929" y="1178.53849783" z="420.0"/>
+ <position name="joins9_v147" unit="mm" x="486.430940335" y="1185.79787522" z="420.0"/>
+ <position name="joins9_v148" unit="mm" x="494.527113793" y="1182.44432958" z="420.0"/>
+ <position name="joins9_v149" unit="mm" x="486.357093876" y="1186.60341749" z="420.0"/>
+ <position name="joins9_v150" unit="mm" x="486.307165983" y="1185.55040038" z="420.0"/>
+ <position name="joins9_v151" unit="mm" x="494.439644299" y="1182.18181678" z="420.0"/>
+ <position name="joins9_v152" unit="mm" x="486.190387392" y="1186.82426327" z="420.0"/>
+ <position name="joins9_v153" unit="mm" x="485.875304088" y="1181.23483516" z="420.0"/>
+ <position name="joins9_v154" unit="mm" x="491.693450797" y="1178.82487933" z="420.0"/>
+ <position name="joins9_v155" unit="mm" x="485.789253057" y="1184.54790254" z="420.0"/>
+ <position name="joins9_v156" unit="mm" x="493.497656749" y="1180.15067265" z="420.0"/>
+ <position name="joins9_v157" unit="mm" x="494.096990848" y="1181.10672408" z="420.0"/>
+ <position name="joins9_v158" unit="mm" x="485.566313348" y="1182.32008188" z="420.0"/>
+ <position name="joins9_v159" unit="mm" x="492.679325644" y="1179.37377503" z="420.0"/>
+ <position name="joins9_v160" unit="mm" x="485.537015632" y="1183.44807893" z="420.0"/>
+ <position name="joins9_v161" unit="mm" x="484.968870146" y="1175.39138378" z="420.0"/>
+ <position name="joins9_v162" unit="mm" x="488.067320797" y="1173.54767575" z="420.0"/>
+ <position name="joins9_v163" unit="mm" x="488.202451504" y="1174.05199022" z="420.0"/>
+ <position name="joins9_v164" unit="mm" x="484.707817731" y="1174.93922781" z="420.0"/>
+ <position name="joins9_v165" unit="mm" x="484.338633884" y="1174.57004401" z="420.0"/>
+ <position name="joins9_v166" unit="mm" x="488.067320746" y="1173.02557098" z="420.0"/>
+ <position name="joins9_v167" unit="mm" x="483.886477873" y="1174.30899166" z="420.0"/>
+ <position name="joins9_v168" unit="mm" x="488.202451355" y="1172.52125649" z="420.0"/>
+ <position name="joins9_v169" unit="mm" x="483.382163384" y="1174.17386103" z="420.0"/>
+ <position name="joins9_v170" unit="mm" x="488.463503695" y="1172.06910047" z="420.0"/>
+ <position name="joins9_v171" unit="mm" x="483.307542186" y="1189.70710935" z="420.0"/>
+ <position name="joins9_v172" unit="mm" x="483.100435369" y="1189.86602804" z="420.0"/>
+ <position name="joins9_v173" unit="mm" x="482.860058615" y="1174.17386107" z="420.0"/>
+ <position name="joins9_v174" unit="mm" x="488.832687482" y="1171.69991661" z="420.0"/>
+ <position name="joins9_v175" unit="mm" x="482.859254422" y="1189.96592848" z="420.0"/>
+ <position name="joins9_v176" unit="mm" x="482.60043538" y="1190.00000267" z="420.0"/>
+ <position name="joins9_v177" unit="mm" x="482.355744144" y="1174.30899176" z="420.0"/>
+ <position name="joins9_v178" unit="mm" x="454.528971753" y="1190.00000498" z="420.0"/>
+ <position name="joins9_v179" unit="mm" x="445.16900182" y="1185.92387886" z="420.0"/>
+ <position name="joins9_v180" unit="mm" x="453.763604601" y="1186.15224596" z="420.0"/>
+ <position name="joins9_v181" unit="mm" x="453.290783583" y="1186.4293712" z="420.0"/>
+ <position name="joins9_v182" unit="mm" x="452.910937518" y="1186.82443458" z="420.0"/>
+ <position name="joins9_v183" unit="mm" x="452.652588868" y="1187.30777099" z="420.0"/>
+ <position name="joins9_v184" unit="mm" x="452.53513691" y="1187.84308693" z="420.0"/>
+ <position name="joins9_v185" unit="mm" x="452.567401057" y="1188.39018577" z="420.0"/>
+ <position name="joins9_v186" unit="mm" x="452.746958609" y="1188.90798611" z="420.0"/>
+ <position name="joins9_v187" unit="mm" x="445.045137406" y="1185.96592518" z="420.0"/>
+ <position name="joins9_v188" unit="mm" x="453.060326675" y="1189.35760658" z="420.0"/>
+ <position name="joins9_v189" unit="mm" x="444.916844522" y="1185.99144422" z="420.0"/>
+ <position name="joins9_v190" unit="mm" x="453.483974594" y="1189.70528539" z="420.0"/>
+ <position name="joins9_v191" unit="mm" x="453.986090844" y="1189.92491549" z="420.0"/>
+ <position name="joins9_v192" unit="mm" x="425.485214561" y="1194.86602541" z="420.0"/>
+ <position name="joins9_v193" unit="mm" x="425.726395516" y="1194.96592583" z="420.0"/>
+ <position name="joins9_v194" unit="mm" x="425.27810778" y="1194.70710678" z="420.0"/>
+ <position name="joins9_v195" unit="mm" x="425.119189157" y="1194.5" z="420.0"/>
+ <position name="joins9_v196" unit="mm" x="425.019288735" y="1194.25881905" z="420.0"/>
+ <position name="joins9_v197" unit="mm" x="424.985214561" y="1194.0" z="420.0"/>
+ <position name="joins9_v198" unit="mm" x="445.045137406" y="1185.96592518" z="390.0"/>
+ <position name="joins9_v199" unit="mm" x="445.16900182" y="1185.92387886" z="390.0"/>
+ <position name="joins9_v200" unit="mm" x="444.916844522" y="1185.99144422" z="390.0"/>
+ <position name="joins9_v201" unit="mm" x="544.034398125" y="1145.76134016" z="390.0"/>
+ <position name="joins9_v202" unit="mm" x="544.068472277" y="1145.50252111" z="390.0"/>
+ <position name="joins9_v203" unit="mm" x="544.034398082" y="1145.24370207" z="390.0"/>
+ <position name="joins9_v204" unit="mm" x="543.934497722" y="1146.00252113" z="390.0"/>
+ <position name="joins9_v205" unit="mm" x="543.775579116" y="1146.20962792" z="390.0"/>
+ <position name="joins9_v206" unit="mm" x="543.775579" y="1144.79541436" z="390.0"/>
+ <position name="joins9_v207" unit="mm" x="543.93449764" y="1145.00252113" z="390.0"/>
+ <position name="joins9_v208" unit="mm" x="538.825831126" y="1139.84566729" z="390.0"/>
+ <position name="joins9_v209" unit="mm" x="538.618724332" y="1139.68674869" z="390.0"/>
+ <position name="joins9_v210" unit="mm" x="538.377543369" y="1139.58684829" z="390.0"/>
+ <position name="joins9_v211" unit="mm" x="538.118724321" y="1139.55277413" z="390.0"/>
+ <position name="joins9_v212" unit="mm" x="537.859905279" y="1139.58684833" z="390.0"/>
+ <position name="joins9_v213" unit="mm" x="537.618724332" y="1139.68674877" z="390.0"/>
+ <position name="joins9_v214" unit="mm" x="537.411617564" y="1139.84566741" z="390.0"/>
+ <position name="joins9_v215" unit="mm" x="524.117240832" y="1153.14004632" z="390.0"/>
+ <position name="joins9_v216" unit="mm" x="524.018895491" y="1153.22629289" z="390.0"/>
+ <position name="joins9_v217" unit="mm" x="523.910134073" y="1153.29896496" z="390.0"/>
+ <position name="joins9_v218" unit="mm" x="520.640807736" y="1161.36484828" z="390.0"/>
+ <position name="joins9_v219" unit="mm" x="520.587089551" y="1161.91025865" z="390.0"/>
+ <position name="joins9_v220" unit="mm" x="523.792817517" y="1153.3568191" z="390.0"/>
+ <position name="joins9_v221" unit="mm" x="520.544462648" y="1160.82533393" z="390.0"/>
+ <position name="joins9_v222" unit="mm" x="520.387341766" y="1162.42061042" z="390.0"/>
+ <position name="joins9_v223" unit="mm" x="520.305288795" y="1160.33222747" z="390.0"/>
+ <position name="joins9_v224" unit="mm" x="520.056563349" y="1162.85758153" z="390.0"/>
+ <position name="joins9_v225" unit="mm" x="519.941245628" y="1159.92255603" z="390.0"/>
+ <position name="joins9_v226" unit="mm" x="519.479668977" y="1159.62708166" z="390.0"/>
+ <position name="joins9_v227" unit="mm" x="518.955218414" y="1159.46799137" z="390.0"/>
+ <position name="joins9_v228" unit="mm" x="518.407274685" y="1159.45723119" z="390.0"/>
+ <position name="joins9_v229" unit="mm" x="517.876982626" y="1159.59560909" z="390.0"/>
+ <position name="joins9_v230" unit="mm" x="500.207042688" y="1182.70710545" z="390.0"/>
+ <position name="joins9_v231" unit="mm" x="496.449681184" y="1193.53553362" z="390.0"/>
+ <position name="joins9_v232" unit="mm" x="499.758754886" y="1182.96592455" z="390.0"/>
+ <position name="joins9_v233" unit="mm" x="499.499935795" y="1182.99999872" z="390.0"/>
+ <position name="joins9_v234" unit="mm" x="499.999935881" y="1182.86602411" z="390.0"/>
+ <position name="joins9_v235" unit="mm" x="495.422976392" y="1182.9999985" z="390.0"/>
+ <position name="joins9_v236" unit="mm" x="495.148935566" y="1182.96171655" z="390.0"/>
+ <position name="joins9_v237" unit="mm" x="494.895876375" y="1182.84980172" z="390.0"/>
+ <position name="joins9_v238" unit="mm" x="494.208242345" y="1194.8296291" z="390.0"/>
+ <position name="joins9_v239" unit="mm" x="495.414147224" y="1194.33012688" z="390.0"/>
+ <position name="joins9_v240" unit="mm" x="489.28484345" y="1171.43886418" z="390.0"/>
+ <position name="joins9_v241" unit="mm" x="490.123784997" y="1178.34040626" z="390.0"/>
+ <position name="joins9_v242" unit="mm" x="489.939193201" y="1178.15581443" z="390.0"/>
+ <position name="joins9_v243" unit="mm" x="486.642650989" y="1179.78233952" z="390.0"/>
+ <position name="joins9_v244" unit="mm" x="486.642650918" y="1179.52128727" z="390.0"/>
+ <position name="joins9_v245" unit="mm" x="489.808667069" y="1177.92973655" z="390.0"/>
+ <position name="joins9_v246" unit="mm" x="486.575085798" y="1180.03449665" z="390.0"/>
+ <position name="joins9_v247" unit="mm" x="490.349862845" y="1178.47093244" z="390.0"/>
+ <position name="joins9_v248" unit="mm" x="486.575085591" y="1179.26913017" z="390.0"/>
+ <position name="joins9_v249" unit="mm" x="494.68317401" y="1182.67282267" z="390.0"/>
+ <position name="joins9_v250" unit="mm" x="486.48215815" y="1186.06979548" z="390.0"/>
+ <position name="joins9_v251" unit="mm" x="486.456897991" y="1186.34534187" z="390.0"/>
+ <position name="joins9_v252" unit="mm" x="486.444559796" y="1180.2605746" z="390.0"/>
+ <position name="joins9_v253" unit="mm" x="490.602019929" y="1178.53849783" z="390.0"/>
+ <position name="joins9_v254" unit="mm" x="494.527113793" y="1182.44432958" z="390.0"/>
+ <position name="joins9_v255" unit="mm" x="486.430940335" y="1185.79787522" z="390.0"/>
+ <position name="joins9_v256" unit="mm" x="486.357093876" y="1186.60341749" z="390.0"/>
+ <position name="joins9_v257" unit="mm" x="494.439644299" y="1182.18181678" z="390.0"/>
+ <position name="joins9_v258" unit="mm" x="486.307165983" y="1185.55040038" z="390.0"/>
+ <position name="joins9_v259" unit="mm" x="486.190387196" y="1186.82426308" z="390.0"/>
+ <position name="joins9_v260" unit="mm" x="485.875304088" y="1181.23483516" z="390.0"/>
+ <position name="joins9_v261" unit="mm" x="491.693450797" y="1178.82487933" z="390.0"/>
+ <position name="joins9_v262" unit="mm" x="485.789253057" y="1184.54790254" z="390.0"/>
+ <position name="joins9_v263" unit="mm" x="494.096990848" y="1181.10672408" z="390.0"/>
+ <position name="joins9_v264" unit="mm" x="493.497656749" y="1180.15067265" z="390.0"/>
+ <position name="joins9_v265" unit="mm" x="492.679325644" y="1179.37377503" z="390.0"/>
+ <position name="joins9_v266" unit="mm" x="485.566313348" y="1182.32008188" z="390.0"/>
+ <position name="joins9_v267" unit="mm" x="485.537015632" y="1183.44807893" z="390.0"/>
+ <position name="joins9_v268" unit="mm" x="484.968870146" y="1175.39138378" z="390.0"/>
+ <position name="joins9_v269" unit="mm" x="488.202451504" y="1174.05199022" z="390.0"/>
+ <position name="joins9_v270" unit="mm" x="488.067320797" y="1173.54767575" z="390.0"/>
+ <position name="joins9_v271" unit="mm" x="484.707817731" y="1174.93922781" z="390.0"/>
+ <position name="joins9_v272" unit="mm" x="484.338633884" y="1174.57004401" z="390.0"/>
+ <position name="joins9_v273" unit="mm" x="488.067320746" y="1173.02557098" z="390.0"/>
+ <position name="joins9_v274" unit="mm" x="483.886477873" y="1174.30899166" z="390.0"/>
+ <position name="joins9_v275" unit="mm" x="488.202451355" y="1172.52125649" z="390.0"/>
+ <position name="joins9_v276" unit="mm" x="488.463503695" y="1172.06910047" z="390.0"/>
+ <position name="joins9_v277" unit="mm" x="483.382163384" y="1174.17386103" z="390.0"/>
+ <position name="joins9_v278" unit="mm" x="483.307541989" y="1189.70710915" z="390.0"/>
+ <position name="joins9_v279" unit="mm" x="483.100435409" y="1189.86602801" z="390.0"/>
+ <position name="joins9_v280" unit="mm" x="488.832687482" y="1171.69991661" z="390.0"/>
+ <position name="joins9_v281" unit="mm" x="482.860058615" y="1174.17386107" z="390.0"/>
+ <position name="joins9_v282" unit="mm" x="482.859254444" y="1189.96592847" z="390.0"/>
+ <position name="joins9_v283" unit="mm" x="482.60043538" y="1190.00000267" z="390.0"/>
+ <position name="joins9_v284" unit="mm" x="482.355744144" y="1174.30899176" z="390.0"/>
+ <position name="joins9_v285" unit="mm" x="454.528971753" y="1190.00000498" z="390.0"/>
+ <position name="joins9_v286" unit="mm" x="452.746958609" y="1188.90798611" z="390.0"/>
+ <position name="joins9_v287" unit="mm" x="452.567401057" y="1188.39018577" z="390.0"/>
+ <position name="joins9_v288" unit="mm" x="452.53513691" y="1187.84308693" z="390.0"/>
+ <position name="joins9_v289" unit="mm" x="452.652588868" y="1187.30777099" z="390.0"/>
+ <position name="joins9_v290" unit="mm" x="452.910937518" y="1186.82443458" z="390.0"/>
+ <position name="joins9_v291" unit="mm" x="453.290783583" y="1186.4293712" z="390.0"/>
+ <position name="joins9_v292" unit="mm" x="453.763604601" y="1186.15224596" z="390.0"/>
+ <position name="joins9_v293" unit="mm" x="453.060326675" y="1189.35760658" z="390.0"/>
+ <position name="joins9_v294" unit="mm" x="453.483974594" y="1189.70528539" z="390.0"/>
+ <position name="joins9_v295" unit="mm" x="453.986090844" y="1189.92491549" z="390.0"/>
+ <position name="joins9_v296" unit="mm" x="425.726395516" y="1194.96592583" z="390.0"/>
+ <position name="joins9_v297" unit="mm" x="425.485214561" y="1194.86602541" z="390.0"/>
+ <position name="joins9_v298" unit="mm" x="425.27810778" y="1194.70710678" z="390.0"/>
+ <position name="joins9_v299" unit="mm" x="425.119189157" y="1194.5" z="390.0"/>
+ <position name="joins9_v300" unit="mm" x="425.019288735" y="1194.25881905" z="390.0"/>
+ <position name="joins9_v301" unit="mm" x="424.985214561" y="1194.0" z="390.0"/>
+ <position name="joins9_v302" unit="mm" x="531.047656878" y="1146.20962914" z="409.5"/>
+ <position name="joins9_v303" unit="mm" x="531.871213969" y="1145.38607191" z="409.346666218"/>
+ <position name="joins9_v304" unit="mm" x="532.638647006" y="1144.61863875" z="408.897114317"/>
+ <position name="joins9_v305" unit="mm" x="533.297656694" y="1143.95962896" z="408.181980515"/>
+ <position name="joins9_v306" unit="mm" x="533.803332613" y="1143.45395295" z="407.25"/>
+ <position name="joins9_v307" unit="mm" x="534.121213785" y="1143.13607173" z="406.164685703"/>
+ <position name="joins9_v308" unit="mm" x="527.974099972" y="1149.28318655" z="406.164685703"/>
+ <position name="joins9_v309" unit="mm" x="528.291981144" y="1148.96530533" z="407.25"/>
+ <position name="joins9_v310" unit="mm" x="528.797657063" y="1148.45962932" z="408.181980515"/>
+ <position name="joins9_v311" unit="mm" x="529.456666751" y="1147.80061953" z="408.897114317"/>
+ <position name="joins9_v312" unit="mm" x="530.224099787" y="1147.03318637" z="409.346666218"/>
+ <position name="joins9_v313" unit="mm" x="534.338061525" y="1155.64714706" z="406.164685703"/>
+ <position name="joins9_v314" unit="mm" x="534.655942696" y="1155.32926584" z="407.25"/>
+ <position name="joins9_v315" unit="mm" x="535.161618616" y="1154.82358983" z="408.181980515"/>
+ <position name="joins9_v316" unit="mm" x="535.820628304" y="1154.16458004" z="408.897114317"/>
+ <position name="joins9_v317" unit="mm" x="540.485175337" y="1149.50003224" z="406.164685703"/>
+ <position name="joins9_v318" unit="mm" x="540.167294166" y="1149.81791346" z="407.25"/>
+ <position name="joins9_v319" unit="mm" x="539.661618246" y="1150.32358946" z="408.181980515"/>
+ <position name="joins9_v320" unit="mm" x="539.002608558" y="1150.98259926" z="408.897114317"/>
+ <position name="joins9_v321" unit="mm" x="538.235175522" y="1151.75003242" z="409.346666218"/>
+ <position name="joins9_v322" unit="mm" x="537.411618431" y="1152.57358965" z="409.5"/>
+ <position name="joins9_v323" unit="mm" x="536.58806134" y="1153.39714687" z="409.346666218"/>
+ </define>
+
+ <solids>
+ <tessellated aunit="deg" lunit="mm" name="joins9_solid">
+ <triangular vertex1="joins9_v0" vertex2="joins9_v1" vertex3="joins9_v2"/>
+ <triangular vertex1="joins9_v3" vertex2="joins9_v0" vertex3="joins9_v2"/>
+ <triangular vertex1="joins9_v4" vertex2="joins9_v3" vertex3="joins9_v5"/>
+ <triangular vertex1="joins9_v3" vertex2="joins9_v2" vertex3="joins9_v5"/>
+ <triangular vertex1="joins9_v6" vertex2="joins9_v4" vertex3="joins9_v7"/>
+ <triangular vertex1="joins9_v4" vertex2="joins9_v5" vertex3="joins9_v7"/>
+ <triangular vertex1="joins9_v8" vertex2="joins9_v6" vertex3="joins9_v9"/>
+ <triangular vertex1="joins9_v6" vertex2="joins9_v7" vertex3="joins9_v9"/>
+ <triangular vertex1="joins9_v10" vertex2="joins9_v8" vertex3="joins9_v11"/>
+ <triangular vertex1="joins9_v8" vertex2="joins9_v9" vertex3="joins9_v11"/>
+ <triangular vertex1="joins9_v12" vertex2="joins9_v10" vertex3="joins9_v13"/>
+ <triangular vertex1="joins9_v10" vertex2="joins9_v11" vertex3="joins9_v13"/>
+ <triangular vertex1="joins9_v14" vertex2="joins9_v12" vertex3="joins9_v15"/>
+ <triangular vertex1="joins9_v12" vertex2="joins9_v13" vertex3="joins9_v15"/>
+ <triangular vertex1="joins9_v16" vertex2="joins9_v14" vertex3="joins9_v17"/>
+ <triangular vertex1="joins9_v14" vertex2="joins9_v15" vertex3="joins9_v17"/>
+ <triangular vertex1="joins9_v18" vertex2="joins9_v16" vertex3="joins9_v19"/>
+ <triangular vertex1="joins9_v16" vertex2="joins9_v17" vertex3="joins9_v19"/>
+ <triangular vertex1="joins9_v20" vertex2="joins9_v18" vertex3="joins9_v21"/>
+ <triangular vertex1="joins9_v18" vertex2="joins9_v19" vertex3="joins9_v21"/>
+ <triangular vertex1="joins9_v22" vertex2="joins9_v20" vertex3="joins9_v23"/>
+ <triangular vertex1="joins9_v20" vertex2="joins9_v21" vertex3="joins9_v23"/>
+ <triangular vertex1="joins9_v24" vertex2="joins9_v22" vertex3="joins9_v25"/>
+ <triangular vertex1="joins9_v22" vertex2="joins9_v23" vertex3="joins9_v25"/>
+ <triangular vertex1="joins9_v26" vertex2="joins9_v27" vertex3="joins9_v28"/>
+ <triangular vertex1="joins9_v29" vertex2="joins9_v26" vertex3="joins9_v30"/>
+ <triangular vertex1="joins9_v26" vertex2="joins9_v28" vertex3="joins9_v30"/>
+ <triangular vertex1="joins9_v31" vertex2="joins9_v29" vertex3="joins9_v32"/>
+ <triangular vertex1="joins9_v29" vertex2="joins9_v30" vertex3="joins9_v32"/>
+ <triangular vertex1="joins9_v33" vertex2="joins9_v31" vertex3="joins9_v34"/>
+ <triangular vertex1="joins9_v31" vertex2="joins9_v32" vertex3="joins9_v34"/>
+ <triangular vertex1="joins9_v35" vertex2="joins9_v33" vertex3="joins9_v36"/>
+ <triangular vertex1="joins9_v33" vertex2="joins9_v34" vertex3="joins9_v36"/>
+ <triangular vertex1="joins9_v37" vertex2="joins9_v35" vertex3="joins9_v38"/>
+ <triangular vertex1="joins9_v35" vertex2="joins9_v36" vertex3="joins9_v38"/>
+ <triangular vertex1="joins9_v39" vertex2="joins9_v37" vertex3="joins9_v40"/>
+ <triangular vertex1="joins9_v37" vertex2="joins9_v38" vertex3="joins9_v40"/>
+ <triangular vertex1="joins9_v41" vertex2="joins9_v39" vertex3="joins9_v42"/>
+ <triangular vertex1="joins9_v39" vertex2="joins9_v40" vertex3="joins9_v42"/>
+ <triangular vertex1="joins9_v43" vertex2="joins9_v41" vertex3="joins9_v44"/>
+ <triangular vertex1="joins9_v41" vertex2="joins9_v42" vertex3="joins9_v44"/>
+ <triangular vertex1="joins9_v45" vertex2="joins9_v43" vertex3="joins9_v46"/>
+ <triangular vertex1="joins9_v43" vertex2="joins9_v44" vertex3="joins9_v46"/>
+ <triangular vertex1="joins9_v47" vertex2="joins9_v45" vertex3="joins9_v48"/>
+ <triangular vertex1="joins9_v45" vertex2="joins9_v46" vertex3="joins9_v48"/>
+ <triangular vertex1="joins9_v49" vertex2="joins9_v47" vertex3="joins9_v50"/>
+ <triangular vertex1="joins9_v47" vertex2="joins9_v48" vertex3="joins9_v50"/>
+ <triangular vertex1="joins9_v49" vertex2="joins9_v50" vertex3="joins9_v51"/>
+ <triangular vertex1="joins9_v52" vertex2="joins9_v24" vertex3="joins9_v25"/>
+ <triangular vertex1="joins9_v53" vertex2="joins9_v52" vertex3="joins9_v54"/>
+ <triangular vertex1="joins9_v52" vertex2="joins9_v25" vertex3="joins9_v54"/>
+ <triangular vertex1="joins9_v55" vertex2="joins9_v53" vertex3="joins9_v56"/>
+ <triangular vertex1="joins9_v53" vertex2="joins9_v54" vertex3="joins9_v56"/>
+ <triangular vertex1="joins9_v57" vertex2="joins9_v55" vertex3="joins9_v58"/>
+ <triangular vertex1="joins9_v55" vertex2="joins9_v56" vertex3="joins9_v58"/>
+ <triangular vertex1="joins9_v59" vertex2="joins9_v57" vertex3="joins9_v60"/>
+ <triangular vertex1="joins9_v57" vertex2="joins9_v58" vertex3="joins9_v60"/>
+ <triangular vertex1="joins9_v61" vertex2="joins9_v59" vertex3="joins9_v62"/>
+ <triangular vertex1="joins9_v59" vertex2="joins9_v60" vertex3="joins9_v62"/>
+ <triangular vertex1="joins9_v63" vertex2="joins9_v61" vertex3="joins9_v64"/>
+ <triangular vertex1="joins9_v61" vertex2="joins9_v62" vertex3="joins9_v64"/>
+ <triangular vertex1="joins9_v65" vertex2="joins9_v63" vertex3="joins9_v66"/>
+ <triangular vertex1="joins9_v63" vertex2="joins9_v64" vertex3="joins9_v66"/>
+ <triangular vertex1="joins9_v67" vertex2="joins9_v65" vertex3="joins9_v68"/>
+ <triangular vertex1="joins9_v65" vertex2="joins9_v66" vertex3="joins9_v68"/>
+ <triangular vertex1="joins9_v69" vertex2="joins9_v67" vertex3="joins9_v70"/>
+ <triangular vertex1="joins9_v67" vertex2="joins9_v68" vertex3="joins9_v70"/>
+ <triangular vertex1="joins9_v71" vertex2="joins9_v69" vertex3="joins9_v72"/>
+ <triangular vertex1="joins9_v69" vertex2="joins9_v70" vertex3="joins9_v72"/>
+ <triangular vertex1="joins9_v0" vertex2="joins9_v71" vertex3="joins9_v73"/>
+ <triangular vertex1="joins9_v71" vertex2="joins9_v72" vertex3="joins9_v73"/>
+ <triangular vertex1="joins9_v0" vertex2="joins9_v73" vertex3="joins9_v1"/>
+ <triangular vertex1="joins9_v19" vertex2="joins9_v74" vertex3="joins9_v21"/>
+ <triangular vertex1="joins9_v74" vertex2="joins9_v19" vertex3="joins9_v17"/>
+ <triangular vertex1="joins9_v21" vertex2="joins9_v74" vertex3="joins9_v23"/>
+ <triangular vertex1="joins9_v74" vertex2="joins9_v17" vertex3="joins9_v15"/>
+ <triangular vertex1="joins9_v23" vertex2="joins9_v74" vertex3="joins9_v25"/>
+ <triangular vertex1="joins9_v75" vertex2="joins9_v74" vertex3="joins9_v13"/>
+ <triangular vertex1="joins9_v74" vertex2="joins9_v15" vertex3="joins9_v13"/>
+ <triangular vertex1="joins9_v75" vertex2="joins9_v13" vertex3="joins9_v11"/>
+ <triangular vertex1="joins9_v75" vertex2="joins9_v11" vertex3="joins9_v9"/>
+ <triangular vertex1="joins9_v75" vertex2="joins9_v9" vertex3="joins9_v7"/>
+ <triangular vertex1="joins9_v75" vertex2="joins9_v7" vertex3="joins9_v5"/>
+ <triangular vertex1="joins9_v75" vertex2="joins9_v5" vertex3="joins9_v2"/>
+ <triangular vertex1="joins9_v75" vertex2="joins9_v2" vertex3="joins9_v1"/>
+ <triangular vertex1="joins9_v54" vertex2="joins9_v25" vertex3="joins9_v76"/>
+ <triangular vertex1="joins9_v56" vertex2="joins9_v54" vertex3="joins9_v76"/>
+ <triangular vertex1="joins9_v58" vertex2="joins9_v56" vertex3="joins9_v76"/>
+ <triangular vertex1="joins9_v60" vertex2="joins9_v58" vertex3="joins9_v76"/>
+ <triangular vertex1="joins9_v62" vertex2="joins9_v60" vertex3="joins9_v76"/>
+ <triangular vertex1="joins9_v64" vertex2="joins9_v62" vertex3="joins9_v76"/>
+ <triangular vertex1="joins9_v25" vertex2="joins9_v74" vertex3="joins9_v76"/>
+ <triangular vertex1="joins9_v66" vertex2="joins9_v64" vertex3="joins9_v77"/>
+ <triangular vertex1="joins9_v68" vertex2="joins9_v66" vertex3="joins9_v77"/>
+ <triangular vertex1="joins9_v70" vertex2="joins9_v68" vertex3="joins9_v77"/>
+ <triangular vertex1="joins9_v72" vertex2="joins9_v70" vertex3="joins9_v77"/>
+ <triangular vertex1="joins9_v73" vertex2="joins9_v72" vertex3="joins9_v77"/>
+ <triangular vertex1="joins9_v1" vertex2="joins9_v73" vertex3="joins9_v77"/>
+ <triangular vertex1="joins9_v64" vertex2="joins9_v76" vertex3="joins9_v77"/>
+ <triangular vertex1="joins9_v75" vertex2="joins9_v1" vertex3="joins9_v77"/>
+ <triangular vertex1="joins9_v78" vertex2="joins9_v6" vertex3="joins9_v8"/>
+ <triangular vertex1="joins9_v6" vertex2="joins9_v78" vertex3="joins9_v4"/>
+ <triangular vertex1="joins9_v4" vertex2="joins9_v78" vertex3="joins9_v3"/>
+ <triangular vertex1="joins9_v78" vertex2="joins9_v8" vertex3="joins9_v10"/>
+ <triangular vertex1="joins9_v3" vertex2="joins9_v78" vertex3="joins9_v0"/>
+ <triangular vertex1="joins9_v78" vertex2="joins9_v10" vertex3="joins9_v12"/>
+ <triangular vertex1="joins9_v78" vertex2="joins9_v12" vertex3="joins9_v14"/>
+ <triangular vertex1="joins9_v78" vertex2="joins9_v14" vertex3="joins9_v16"/>
+ <triangular vertex1="joins9_v71" vertex2="joins9_v0" vertex3="joins9_v79"/>
+ <triangular vertex1="joins9_v69" vertex2="joins9_v71" vertex3="joins9_v79"/>
+ <triangular vertex1="joins9_v67" vertex2="joins9_v69" vertex3="joins9_v79"/>
+ <triangular vertex1="joins9_v65" vertex2="joins9_v67" vertex3="joins9_v79"/>
+ <triangular vertex1="joins9_v63" vertex2="joins9_v65" vertex3="joins9_v79"/>
+ <triangular vertex1="joins9_v61" vertex2="joins9_v63" vertex3="joins9_v79"/>
+ <triangular vertex1="joins9_v59" vertex2="joins9_v61" vertex3="joins9_v79"/>
+ <triangular vertex1="joins9_v0" vertex2="joins9_v78" vertex3="joins9_v79"/>
+ <triangular vertex1="joins9_v59" vertex2="joins9_v79" vertex3="joins9_v57"/>
+ <triangular vertex1="joins9_v22" vertex2="joins9_v24" vertex3="joins9_v80"/>
+ <triangular vertex1="joins9_v20" vertex2="joins9_v22" vertex3="joins9_v80"/>
+ <triangular vertex1="joins9_v18" vertex2="joins9_v20" vertex3="joins9_v80"/>
+ <triangular vertex1="joins9_v16" vertex2="joins9_v18" vertex3="joins9_v80"/>
+ <triangular vertex1="joins9_v78" vertex2="joins9_v16" vertex3="joins9_v80"/>
+ <triangular vertex1="joins9_v55" vertex2="joins9_v57" vertex3="joins9_v81"/>
+ <triangular vertex1="joins9_v53" vertex2="joins9_v55" vertex3="joins9_v81"/>
+ <triangular vertex1="joins9_v52" vertex2="joins9_v53" vertex3="joins9_v81"/>
+ <triangular vertex1="joins9_v24" vertex2="joins9_v52" vertex3="joins9_v81"/>
+ <triangular vertex1="joins9_v57" vertex2="joins9_v79" vertex3="joins9_v81"/>
+ <triangular vertex1="joins9_v80" vertex2="joins9_v24" vertex3="joins9_v81"/>
+ <triangular vertex1="joins9_v82" vertex2="joins9_v75" vertex3="joins9_v77"/>
+ <triangular vertex1="joins9_v82" vertex2="joins9_v77" vertex3="joins9_v83"/>
+ <triangular vertex1="joins9_v82" vertex2="joins9_v83" vertex3="joins9_v84"/>
+ <triangular vertex1="joins9_v85" vertex2="joins9_v84" vertex3="joins9_v86"/>
+ <triangular vertex1="joins9_v85" vertex2="joins9_v82" vertex3="joins9_v84"/>
+ <triangular vertex1="joins9_v87" vertex2="joins9_v86" vertex3="joins9_v88"/>
+ <triangular vertex1="joins9_v87" vertex2="joins9_v85" vertex3="joins9_v86"/>
+ <triangular vertex1="joins9_v89" vertex2="joins9_v88" vertex3="joins9_v90"/>
+ <triangular vertex1="joins9_v89" vertex2="joins9_v87" vertex3="joins9_v88"/>
+ <triangular vertex1="joins9_v91" vertex2="joins9_v90" vertex3="joins9_v92"/>
+ <triangular vertex1="joins9_v91" vertex2="joins9_v89" vertex3="joins9_v90"/>
+ <triangular vertex1="joins9_v93" vertex2="joins9_v91" vertex3="joins9_v92"/>
+ <triangular vertex1="joins9_v94" vertex2="joins9_v95" vertex3="joins9_v96"/>
+ <triangular vertex1="joins9_v97" vertex2="joins9_v94" vertex3="joins9_v96"/>
+ <triangular vertex1="joins9_v98" vertex2="joins9_v94" vertex3="joins9_v97"/>
+ <triangular vertex1="joins9_v98" vertex2="joins9_v99" vertex3="joins9_v94"/>
+ <triangular vertex1="joins9_v100" vertex2="joins9_v99" vertex3="joins9_v98"/>
+ <triangular vertex1="joins9_v101" vertex2="joins9_v102" vertex3="joins9_v103"/>
+ <triangular vertex1="joins9_v104" vertex2="joins9_v105" vertex3="joins9_v101"/>
+ <triangular vertex1="joins9_v106" vertex2="joins9_v104" vertex3="joins9_v101"/>
+ <triangular vertex1="joins9_v107" vertex2="joins9_v100" vertex3="joins9_v98"/>
+ <triangular vertex1="joins9_v107" vertex2="joins9_v101" vertex3="joins9_v103"/>
+ <triangular vertex1="joins9_v107" vertex2="joins9_v106" vertex3="joins9_v101"/>
+ <triangular vertex1="joins9_v107" vertex2="joins9_v103" vertex3="joins9_v100"/>
+ <triangular vertex1="joins9_v108" vertex2="joins9_v107" vertex3="joins9_v98"/>
+ <triangular vertex1="joins9_v109" vertex2="joins9_v110" vertex3="joins9_v108"/>
+ <triangular vertex1="joins9_v109" vertex2="joins9_v111" vertex3="joins9_v110"/>
+ <triangular vertex1="joins9_v112" vertex2="joins9_v109" vertex3="joins9_v108"/>
+ <triangular vertex1="joins9_v112" vertex2="joins9_v108" vertex3="joins9_v98"/>
+ <triangular vertex1="joins9_v113" vertex2="joins9_v114" vertex3="joins9_v111"/>
+ <triangular vertex1="joins9_v113" vertex2="joins9_v111" vertex3="joins9_v109"/>
+ <triangular vertex1="joins9_v115" vertex2="joins9_v112" vertex3="joins9_v98"/>
+ <triangular vertex1="joins9_v116" vertex2="joins9_v114" vertex3="joins9_v113"/>
+ <triangular vertex1="joins9_v117" vertex2="joins9_v115" vertex3="joins9_v98"/>
+ <triangular vertex1="joins9_v118" vertex2="joins9_v114" vertex3="joins9_v116"/>
+ <triangular vertex1="joins9_v119" vertex2="joins9_v114" vertex3="joins9_v118"/>
+ <triangular vertex1="joins9_v120" vertex2="joins9_v114" vertex3="joins9_v119"/>
+ <triangular vertex1="joins9_v121" vertex2="joins9_v114" vertex3="joins9_v120"/>
+ <triangular vertex1="joins9_v122" vertex2="joins9_v114" vertex3="joins9_v121"/>
+ <triangular vertex1="joins9_v123" vertex2="joins9_v124" vertex3="joins9_v125"/>
+ <triangular vertex1="joins9_v123" vertex2="joins9_v126" vertex3="joins9_v124"/>
+ <triangular vertex1="joins9_v123" vertex2="joins9_v127" vertex3="joins9_v126"/>
+ <triangular vertex1="joins9_v123" vertex2="joins9_v125" vertex3="joins9_v117"/>
+ <triangular vertex1="joins9_v123" vertex2="joins9_v117" vertex3="joins9_v98"/>
+ <triangular vertex1="joins9_v128" vertex2="joins9_v127" vertex3="joins9_v123"/>
+ <triangular vertex1="joins9_v129" vertex2="joins9_v128" vertex3="joins9_v123"/>
+ <triangular vertex1="joins9_v130" vertex2="joins9_v129" vertex3="joins9_v123"/>
+ <triangular vertex1="joins9_v81" vertex2="joins9_v123" vertex3="joins9_v131"/>
+ <triangular vertex1="joins9_v81" vertex2="joins9_v131" vertex3="joins9_v132"/>
+ <triangular vertex1="joins9_v81" vertex2="joins9_v130" vertex3="joins9_v123"/>
+ <triangular vertex1="joins9_v133" vertex2="joins9_v114" vertex3="joins9_v122"/>
+ <triangular vertex1="joins9_v134" vertex2="joins9_v135" vertex3="joins9_v136"/>
+ <triangular vertex1="joins9_v137" vertex2="joins9_v138" vertex3="joins9_v135"/>
+ <triangular vertex1="joins9_v137" vertex2="joins9_v135" vertex3="joins9_v134"/>
+ <triangular vertex1="joins9_v139" vertex2="joins9_v134" vertex3="joins9_v136"/>
+ <triangular vertex1="joins9_v139" vertex2="joins9_v136" vertex3="joins9_v140"/>
+ <triangular vertex1="joins9_v141" vertex2="joins9_v138" vertex3="joins9_v137"/>
+ <triangular vertex1="joins9_v142" vertex2="joins9_v143" vertex3="joins9_v130"/>
+ <triangular vertex1="joins9_v144" vertex2="joins9_v130" vertex3="joins9_v81"/>
+ <triangular vertex1="joins9_v144" vertex2="joins9_v142" vertex3="joins9_v130"/>
+ <triangular vertex1="joins9_v145" vertex2="joins9_v139" vertex3="joins9_v140"/>
+ <triangular vertex1="joins9_v145" vertex2="joins9_v140" vertex3="joins9_v146"/>
+ <triangular vertex1="joins9_v147" vertex2="joins9_v143" vertex3="joins9_v142"/>
+ <triangular vertex1="joins9_v147" vertex2="joins9_v148" vertex3="joins9_v143"/>
+ <triangular vertex1="joins9_v149" vertex2="joins9_v144" vertex3="joins9_v81"/>
+ <triangular vertex1="joins9_v150" vertex2="joins9_v148" vertex3="joins9_v147"/>
+ <triangular vertex1="joins9_v150" vertex2="joins9_v151" vertex3="joins9_v148"/>
+ <triangular vertex1="joins9_v152" vertex2="joins9_v149" vertex3="joins9_v81"/>
+ <triangular vertex1="joins9_v153" vertex2="joins9_v145" vertex3="joins9_v146"/>
+ <triangular vertex1="joins9_v153" vertex2="joins9_v146" vertex3="joins9_v154"/>
+ <triangular vertex1="joins9_v155" vertex2="joins9_v156" vertex3="joins9_v157"/>
+ <triangular vertex1="joins9_v155" vertex2="joins9_v157" vertex3="joins9_v151"/>
+ <triangular vertex1="joins9_v155" vertex2="joins9_v151" vertex3="joins9_v150"/>
+ <triangular vertex1="joins9_v158" vertex2="joins9_v153" vertex3="joins9_v154"/>
+ <triangular vertex1="joins9_v158" vertex2="joins9_v154" vertex3="joins9_v159"/>
+ <triangular vertex1="joins9_v160" vertex2="joins9_v159" vertex3="joins9_v156"/>
+ <triangular vertex1="joins9_v160" vertex2="joins9_v156" vertex3="joins9_v155"/>
+ <triangular vertex1="joins9_v160" vertex2="joins9_v158" vertex3="joins9_v159"/>
+ <triangular vertex1="joins9_v161" vertex2="joins9_v138" vertex3="joins9_v141"/>
+ <triangular vertex1="joins9_v161" vertex2="joins9_v162" vertex3="joins9_v163"/>
+ <triangular vertex1="joins9_v161" vertex2="joins9_v163" vertex3="joins9_v138"/>
+ <triangular vertex1="joins9_v164" vertex2="joins9_v162" vertex3="joins9_v161"/>
+ <triangular vertex1="joins9_v165" vertex2="joins9_v166" vertex3="joins9_v162"/>
+ <triangular vertex1="joins9_v165" vertex2="joins9_v162" vertex3="joins9_v164"/>
+ <triangular vertex1="joins9_v167" vertex2="joins9_v168" vertex3="joins9_v166"/>
+ <triangular vertex1="joins9_v167" vertex2="joins9_v166" vertex3="joins9_v165"/>
+ <triangular vertex1="joins9_v169" vertex2="joins9_v170" vertex3="joins9_v168"/>
+ <triangular vertex1="joins9_v169" vertex2="joins9_v168" vertex3="joins9_v167"/>
+ <triangular vertex1="joins9_v171" vertex2="joins9_v152" vertex3="joins9_v81"/>
+ <triangular vertex1="joins9_v172" vertex2="joins9_v171" vertex3="joins9_v81"/>
+ <triangular vertex1="joins9_v173" vertex2="joins9_v174" vertex3="joins9_v170"/>
+ <triangular vertex1="joins9_v173" vertex2="joins9_v170" vertex3="joins9_v169"/>
+ <triangular vertex1="joins9_v175" vertex2="joins9_v172" vertex3="joins9_v81"/>
+ <triangular vertex1="joins9_v176" vertex2="joins9_v175" vertex3="joins9_v81"/>
+ <triangular vertex1="joins9_v177" vertex2="joins9_v133" vertex3="joins9_v174"/>
+ <triangular vertex1="joins9_v177" vertex2="joins9_v174" vertex3="joins9_v173"/>
+ <triangular vertex1="joins9_v178" vertex2="joins9_v176" vertex3="joins9_v81"/>
+ <triangular vertex1="joins9_v179" vertex2="joins9_v177" vertex3="joins9_v180"/>
+ <triangular vertex1="joins9_v179" vertex2="joins9_v180" vertex3="joins9_v181"/>
+ <triangular vertex1="joins9_v179" vertex2="joins9_v181" vertex3="joins9_v182"/>
+ <triangular vertex1="joins9_v179" vertex2="joins9_v182" vertex3="joins9_v183"/>
+ <triangular vertex1="joins9_v179" vertex2="joins9_v183" vertex3="joins9_v184"/>
+ <triangular vertex1="joins9_v179" vertex2="joins9_v184" vertex3="joins9_v185"/>
+ <triangular vertex1="joins9_v179" vertex2="joins9_v185" vertex3="joins9_v186"/>
+ <triangular vertex1="joins9_v187" vertex2="joins9_v179" vertex3="joins9_v186"/>
+ <triangular vertex1="joins9_v187" vertex2="joins9_v186" vertex3="joins9_v188"/>
+ <triangular vertex1="joins9_v189" vertex2="joins9_v187" vertex3="joins9_v188"/>
+ <triangular vertex1="joins9_v76" vertex2="joins9_v189" vertex3="joins9_v188"/>
+ <triangular vertex1="joins9_v76" vertex2="joins9_v188" vertex3="joins9_v190"/>
+ <triangular vertex1="joins9_v79" vertex2="joins9_v76" vertex3="joins9_v190"/>
+ <triangular vertex1="joins9_v79" vertex2="joins9_v190" vertex3="joins9_v191"/>
+ <triangular vertex1="joins9_v79" vertex2="joins9_v191" vertex3="joins9_v178"/>
+ <triangular vertex1="joins9_v79" vertex2="joins9_v178" vertex3="joins9_v81"/>
+ <triangular vertex1="joins9_v79" vertex2="joins9_v77" vertex3="joins9_v76"/>
+ <triangular vertex1="joins9_v192" vertex2="joins9_v79" vertex3="joins9_v193"/>
+ <triangular vertex1="joins9_v194" vertex2="joins9_v79" vertex3="joins9_v192"/>
+ <triangular vertex1="joins9_v195" vertex2="joins9_v79" vertex3="joins9_v194"/>
+ <triangular vertex1="joins9_v196" vertex2="joins9_v79" vertex3="joins9_v195"/>
+ <triangular vertex1="joins9_v92" vertex2="joins9_v77" vertex3="joins9_v79"/>
+ <triangular vertex1="joins9_v92" vertex2="joins9_v83" vertex3="joins9_v77"/>
+ <triangular vertex1="joins9_v92" vertex2="joins9_v84" vertex3="joins9_v83"/>
+ <triangular vertex1="joins9_v92" vertex2="joins9_v86" vertex3="joins9_v84"/>
+ <triangular vertex1="joins9_v92" vertex2="joins9_v88" vertex3="joins9_v86"/>
+ <triangular vertex1="joins9_v92" vertex2="joins9_v90" vertex3="joins9_v88"/>
+ <triangular vertex1="joins9_v197" vertex2="joins9_v92" vertex3="joins9_v79"/>
+ <triangular vertex1="joins9_v197" vertex2="joins9_v79" vertex3="joins9_v196"/>
+ <triangular vertex1="joins9_v179" vertex2="joins9_v114" vertex3="joins9_v177"/>
+ <triangular vertex1="joins9_v177" vertex2="joins9_v114" vertex3="joins9_v133"/>
+ <triangular vertex1="joins9_v198" vertex2="joins9_v199" vertex3="joins9_v179"/>
+ <triangular vertex1="joins9_v198" vertex2="joins9_v179" vertex3="joins9_v187"/>
+ <triangular vertex1="joins9_v74" vertex2="joins9_v200" vertex3="joins9_v189"/>
+ <triangular vertex1="joins9_v200" vertex2="joins9_v198" vertex3="joins9_v189"/>
+ <triangular vertex1="joins9_v198" vertex2="joins9_v187" vertex3="joins9_v189"/>
+ <triangular vertex1="joins9_v74" vertex2="joins9_v189" vertex3="joins9_v76"/>
+ <triangular vertex1="joins9_v201" vertex2="joins9_v202" vertex3="joins9_v203"/>
+ <triangular vertex1="joins9_v201" vertex2="joins9_v203" vertex3="joins9_v204"/>
+ <triangular vertex1="joins9_v204" vertex2="joins9_v203" vertex3="joins9_v205"/>
+ <triangular vertex1="joins9_v205" vertex2="joins9_v203" vertex3="joins9_v206"/>
+ <triangular vertex1="joins9_v203" vertex2="joins9_v207" vertex3="joins9_v206"/>
+ <triangular vertex1="joins9_v208" vertex2="joins9_v209" vertex3="joins9_v210"/>
+ <triangular vertex1="joins9_v210" vertex2="joins9_v211" vertex3="joins9_v212"/>
+ <triangular vertex1="joins9_v210" vertex2="joins9_v212" vertex3="joins9_v213"/>
+ <triangular vertex1="joins9_v205" vertex2="joins9_v206" vertex3="joins9_v214"/>
+ <triangular vertex1="joins9_v208" vertex2="joins9_v210" vertex3="joins9_v214"/>
+ <triangular vertex1="joins9_v210" vertex2="joins9_v213" vertex3="joins9_v214"/>
+ <triangular vertex1="joins9_v206" vertex2="joins9_v208" vertex3="joins9_v214"/>
+ <triangular vertex1="joins9_v205" vertex2="joins9_v214" vertex3="joins9_v215"/>
+ <triangular vertex1="joins9_v216" vertex2="joins9_v217" vertex3="joins9_v218"/>
+ <triangular vertex1="joins9_v215" vertex2="joins9_v216" vertex3="joins9_v218"/>
+ <triangular vertex1="joins9_v205" vertex2="joins9_v215" vertex3="joins9_v219"/>
+ <triangular vertex1="joins9_v215" vertex2="joins9_v218" vertex3="joins9_v219"/>
+ <triangular vertex1="joins9_v217" vertex2="joins9_v220" vertex3="joins9_v221"/>
+ <triangular vertex1="joins9_v218" vertex2="joins9_v217" vertex3="joins9_v221"/>
+ <triangular vertex1="joins9_v205" vertex2="joins9_v219" vertex3="joins9_v222"/>
+ <triangular vertex1="joins9_v221" vertex2="joins9_v220" vertex3="joins9_v223"/>
+ <triangular vertex1="joins9_v205" vertex2="joins9_v222" vertex3="joins9_v224"/>
+ <triangular vertex1="joins9_v223" vertex2="joins9_v220" vertex3="joins9_v225"/>
+ <triangular vertex1="joins9_v225" vertex2="joins9_v220" vertex3="joins9_v226"/>
+ <triangular vertex1="joins9_v226" vertex2="joins9_v220" vertex3="joins9_v227"/>
+ <triangular vertex1="joins9_v227" vertex2="joins9_v220" vertex3="joins9_v228"/>
+ <triangular vertex1="joins9_v228" vertex2="joins9_v220" vertex3="joins9_v229"/>
+ <triangular vertex1="joins9_v224" vertex2="joins9_v230" vertex3="joins9_v231"/>
+ <triangular vertex1="joins9_v232" vertex2="joins9_v233" vertex3="joins9_v231"/>
+ <triangular vertex1="joins9_v234" vertex2="joins9_v232" vertex3="joins9_v231"/>
+ <triangular vertex1="joins9_v230" vertex2="joins9_v234" vertex3="joins9_v231"/>
+ <triangular vertex1="joins9_v205" vertex2="joins9_v224" vertex3="joins9_v231"/>
+ <triangular vertex1="joins9_v231" vertex2="joins9_v233" vertex3="joins9_v235"/>
+ <triangular vertex1="joins9_v231" vertex2="joins9_v235" vertex3="joins9_v236"/>
+ <triangular vertex1="joins9_v231" vertex2="joins9_v236" vertex3="joins9_v237"/>
+ <triangular vertex1="joins9_v238" vertex2="joins9_v239" vertex3="joins9_v80"/>
+ <triangular vertex1="joins9_v239" vertex2="joins9_v231" vertex3="joins9_v80"/>
+ <triangular vertex1="joins9_v231" vertex2="joins9_v237" vertex3="joins9_v80"/>
+ <triangular vertex1="joins9_v229" vertex2="joins9_v220" vertex3="joins9_v240"/>
+ <triangular vertex1="joins9_v241" vertex2="joins9_v242" vertex3="joins9_v243"/>
+ <triangular vertex1="joins9_v243" vertex2="joins9_v242" vertex3="joins9_v244"/>
+ <triangular vertex1="joins9_v242" vertex2="joins9_v245" vertex3="joins9_v244"/>
+ <triangular vertex1="joins9_v241" vertex2="joins9_v243" vertex3="joins9_v246"/>
+ <triangular vertex1="joins9_v247" vertex2="joins9_v241" vertex3="joins9_v246"/>
+ <triangular vertex1="joins9_v244" vertex2="joins9_v245" vertex3="joins9_v248"/>
+ <triangular vertex1="joins9_v237" vertex2="joins9_v249" vertex3="joins9_v250"/>
+ <triangular vertex1="joins9_v80" vertex2="joins9_v237" vertex3="joins9_v251"/>
+ <triangular vertex1="joins9_v237" vertex2="joins9_v250" vertex3="joins9_v251"/>
+ <triangular vertex1="joins9_v247" vertex2="joins9_v246" vertex3="joins9_v252"/>
+ <triangular vertex1="joins9_v253" vertex2="joins9_v247" vertex3="joins9_v252"/>
+ <triangular vertex1="joins9_v249" vertex2="joins9_v254" vertex3="joins9_v255"/>
+ <triangular vertex1="joins9_v250" vertex2="joins9_v249" vertex3="joins9_v255"/>
+ <triangular vertex1="joins9_v80" vertex2="joins9_v251" vertex3="joins9_v256"/>
+ <triangular vertex1="joins9_v254" vertex2="joins9_v257" vertex3="joins9_v258"/>
+ <triangular vertex1="joins9_v255" vertex2="joins9_v254" vertex3="joins9_v258"/>
+ <triangular vertex1="joins9_v80" vertex2="joins9_v256" vertex3="joins9_v259"/>
+ <triangular vertex1="joins9_v253" vertex2="joins9_v252" vertex3="joins9_v260"/>
+ <triangular vertex1="joins9_v261" vertex2="joins9_v253" vertex3="joins9_v260"/>
+ <triangular vertex1="joins9_v258" vertex2="joins9_v257" vertex3="joins9_v262"/>
+ <triangular vertex1="joins9_v257" vertex2="joins9_v263" vertex3="joins9_v262"/>
+ <triangular vertex1="joins9_v263" vertex2="joins9_v264" vertex3="joins9_v262"/>
+ <triangular vertex1="joins9_v265" vertex2="joins9_v261" vertex3="joins9_v266"/>
+ <triangular vertex1="joins9_v261" vertex2="joins9_v260" vertex3="joins9_v266"/>
+ <triangular vertex1="joins9_v265" vertex2="joins9_v266" vertex3="joins9_v267"/>
+ <triangular vertex1="joins9_v264" vertex2="joins9_v265" vertex3="joins9_v267"/>
+ <triangular vertex1="joins9_v262" vertex2="joins9_v264" vertex3="joins9_v267"/>
+ <triangular vertex1="joins9_v248" vertex2="joins9_v245" vertex3="joins9_v268"/>
+ <triangular vertex1="joins9_v245" vertex2="joins9_v269" vertex3="joins9_v268"/>
+ <triangular vertex1="joins9_v269" vertex2="joins9_v270" vertex3="joins9_v268"/>
+ <triangular vertex1="joins9_v268" vertex2="joins9_v270" vertex3="joins9_v271"/>
+ <triangular vertex1="joins9_v271" vertex2="joins9_v270" vertex3="joins9_v272"/>
+ <triangular vertex1="joins9_v270" vertex2="joins9_v273" vertex3="joins9_v272"/>
+ <triangular vertex1="joins9_v272" vertex2="joins9_v273" vertex3="joins9_v274"/>
+ <triangular vertex1="joins9_v273" vertex2="joins9_v275" vertex3="joins9_v274"/>
+ <triangular vertex1="joins9_v275" vertex2="joins9_v276" vertex3="joins9_v277"/>
+ <triangular vertex1="joins9_v274" vertex2="joins9_v275" vertex3="joins9_v277"/>
+ <triangular vertex1="joins9_v80" vertex2="joins9_v259" vertex3="joins9_v278"/>
+ <triangular vertex1="joins9_v80" vertex2="joins9_v278" vertex3="joins9_v279"/>
+ <triangular vertex1="joins9_v276" vertex2="joins9_v280" vertex3="joins9_v281"/>
+ <triangular vertex1="joins9_v277" vertex2="joins9_v276" vertex3="joins9_v281"/>
+ <triangular vertex1="joins9_v80" vertex2="joins9_v279" vertex3="joins9_v282"/>
+ <triangular vertex1="joins9_v80" vertex2="joins9_v282" vertex3="joins9_v283"/>
+ <triangular vertex1="joins9_v280" vertex2="joins9_v240" vertex3="joins9_v284"/>
+ <triangular vertex1="joins9_v281" vertex2="joins9_v280" vertex3="joins9_v284"/>
+ <triangular vertex1="joins9_v80" vertex2="joins9_v283" vertex3="joins9_v285"/>
+ <triangular vertex1="joins9_v286" vertex2="joins9_v287" vertex3="joins9_v199"/>
+ <triangular vertex1="joins9_v287" vertex2="joins9_v288" vertex3="joins9_v199"/>
+ <triangular vertex1="joins9_v288" vertex2="joins9_v289" vertex3="joins9_v199"/>
+ <triangular vertex1="joins9_v289" vertex2="joins9_v290" vertex3="joins9_v199"/>
+ <triangular vertex1="joins9_v290" vertex2="joins9_v291" vertex3="joins9_v199"/>
+ <triangular vertex1="joins9_v291" vertex2="joins9_v292" vertex3="joins9_v199"/>
+ <triangular vertex1="joins9_v292" vertex2="joins9_v284" vertex3="joins9_v199"/>
+ <triangular vertex1="joins9_v293" vertex2="joins9_v286" vertex3="joins9_v198"/>
+ <triangular vertex1="joins9_v286" vertex2="joins9_v199" vertex3="joins9_v198"/>
+ <triangular vertex1="joins9_v293" vertex2="joins9_v198" vertex3="joins9_v200"/>
+ <triangular vertex1="joins9_v293" vertex2="joins9_v200" vertex3="joins9_v74"/>
+ <triangular vertex1="joins9_v294" vertex2="joins9_v293" vertex3="joins9_v74"/>
+ <triangular vertex1="joins9_v74" vertex2="joins9_v75" vertex3="joins9_v78"/>
+ <triangular vertex1="joins9_v294" vertex2="joins9_v74" vertex3="joins9_v78"/>
+ <triangular vertex1="joins9_v285" vertex2="joins9_v295" vertex3="joins9_v78"/>
+ <triangular vertex1="joins9_v295" vertex2="joins9_v294" vertex3="joins9_v78"/>
+ <triangular vertex1="joins9_v80" vertex2="joins9_v285" vertex3="joins9_v78"/>
+ <triangular vertex1="joins9_v296" vertex2="joins9_v78" vertex3="joins9_v297"/>
+ <triangular vertex1="joins9_v297" vertex2="joins9_v78" vertex3="joins9_v298"/>
+ <triangular vertex1="joins9_v298" vertex2="joins9_v78" vertex3="joins9_v299"/>
+ <triangular vertex1="joins9_v299" vertex2="joins9_v78" vertex3="joins9_v300"/>
+ <triangular vertex1="joins9_v89" vertex2="joins9_v91" vertex3="joins9_v93"/>
+ <triangular vertex1="joins9_v87" vertex2="joins9_v89" vertex3="joins9_v93"/>
+ <triangular vertex1="joins9_v85" vertex2="joins9_v87" vertex3="joins9_v93"/>
+ <triangular vertex1="joins9_v82" vertex2="joins9_v85" vertex3="joins9_v93"/>
+ <triangular vertex1="joins9_v75" vertex2="joins9_v82" vertex3="joins9_v93"/>
+ <triangular vertex1="joins9_v78" vertex2="joins9_v75" vertex3="joins9_v93"/>
+ <triangular vertex1="joins9_v78" vertex2="joins9_v93" vertex3="joins9_v301"/>
+ <triangular vertex1="joins9_v300" vertex2="joins9_v78" vertex3="joins9_v301"/>
+ <triangular vertex1="joins9_v284" vertex2="joins9_v220" vertex3="joins9_v199"/>
+ <triangular vertex1="joins9_v240" vertex2="joins9_v220" vertex3="joins9_v284"/>
+ <triangular vertex1="joins9_v300" vertex2="joins9_v301" vertex3="joins9_v197"/>
+ <triangular vertex1="joins9_v300" vertex2="joins9_v197" vertex3="joins9_v196"/>
+ <triangular vertex1="joins9_v299" vertex2="joins9_v196" vertex3="joins9_v195"/>
+ <triangular vertex1="joins9_v299" vertex2="joins9_v300" vertex3="joins9_v196"/>
+ <triangular vertex1="joins9_v298" vertex2="joins9_v195" vertex3="joins9_v194"/>
+ <triangular vertex1="joins9_v298" vertex2="joins9_v299" vertex3="joins9_v195"/>
+ <triangular vertex1="joins9_v297" vertex2="joins9_v194" vertex3="joins9_v192"/>
+ <triangular vertex1="joins9_v297" vertex2="joins9_v298" vertex3="joins9_v194"/>
+ <triangular vertex1="joins9_v296" vertex2="joins9_v192" vertex3="joins9_v193"/>
+ <triangular vertex1="joins9_v296" vertex2="joins9_v297" vertex3="joins9_v192"/>
+ <triangular vertex1="joins9_v78" vertex2="joins9_v193" vertex3="joins9_v79"/>
+ <triangular vertex1="joins9_v78" vertex2="joins9_v296" vertex3="joins9_v193"/>
+ <triangular vertex1="joins9_v238" vertex2="joins9_v80" vertex3="joins9_v81"/>
+ <triangular vertex1="joins9_v238" vertex2="joins9_v81" vertex3="joins9_v132"/>
+ <triangular vertex1="joins9_v239" vertex2="joins9_v132" vertex3="joins9_v131"/>
+ <triangular vertex1="joins9_v239" vertex2="joins9_v238" vertex3="joins9_v132"/>
+ <triangular vertex1="joins9_v231" vertex2="joins9_v131" vertex3="joins9_v123"/>
+ <triangular vertex1="joins9_v231" vertex2="joins9_v239" vertex3="joins9_v131"/>
+ <triangular vertex1="joins9_v301" vertex2="joins9_v93" vertex3="joins9_v92"/>
+ <triangular vertex1="joins9_v301" vertex2="joins9_v92" vertex3="joins9_v197"/>
+ <triangular vertex1="joins9_v176" vertex2="joins9_v285" vertex3="joins9_v283"/>
+ <triangular vertex1="joins9_v176" vertex2="joins9_v178" vertex3="joins9_v285"/>
+ <triangular vertex1="joins9_v180" vertex2="joins9_v292" vertex3="joins9_v291"/>
+ <triangular vertex1="joins9_v181" vertex2="joins9_v180" vertex3="joins9_v291"/>
+ <triangular vertex1="joins9_v182" vertex2="joins9_v181" vertex3="joins9_v291"/>
+ <triangular vertex1="joins9_v183" vertex2="joins9_v182" vertex3="joins9_v290"/>
+ <triangular vertex1="joins9_v182" vertex2="joins9_v291" vertex3="joins9_v290"/>
+ <triangular vertex1="joins9_v184" vertex2="joins9_v183" vertex3="joins9_v289"/>
+ <triangular vertex1="joins9_v183" vertex2="joins9_v290" vertex3="joins9_v289"/>
+ <triangular vertex1="joins9_v185" vertex2="joins9_v184" vertex3="joins9_v288"/>
+ <triangular vertex1="joins9_v184" vertex2="joins9_v289" vertex3="joins9_v288"/>
+ <triangular vertex1="joins9_v186" vertex2="joins9_v185" vertex3="joins9_v287"/>
+ <triangular vertex1="joins9_v185" vertex2="joins9_v288" vertex3="joins9_v287"/>
+ <triangular vertex1="joins9_v188" vertex2="joins9_v186" vertex3="joins9_v286"/>
+ <triangular vertex1="joins9_v186" vertex2="joins9_v287" vertex3="joins9_v286"/>
+ <triangular vertex1="joins9_v190" vertex2="joins9_v188" vertex3="joins9_v293"/>
+ <triangular vertex1="joins9_v188" vertex2="joins9_v286" vertex3="joins9_v293"/>
+ <triangular vertex1="joins9_v191" vertex2="joins9_v190" vertex3="joins9_v294"/>
+ <triangular vertex1="joins9_v190" vertex2="joins9_v293" vertex3="joins9_v294"/>
+ <triangular vertex1="joins9_v178" vertex2="joins9_v191" vertex3="joins9_v295"/>
+ <triangular vertex1="joins9_v191" vertex2="joins9_v294" vertex3="joins9_v295"/>
+ <triangular vertex1="joins9_v178" vertex2="joins9_v295" vertex3="joins9_v285"/>
+ <triangular vertex1="joins9_v180" vertex2="joins9_v177" vertex3="joins9_v284"/>
+ <triangular vertex1="joins9_v180" vertex2="joins9_v284" vertex3="joins9_v292"/>
+ <triangular vertex1="joins9_v164" vertex2="joins9_v161" vertex3="joins9_v268"/>
+ <triangular vertex1="joins9_v165" vertex2="joins9_v164" vertex3="joins9_v271"/>
+ <triangular vertex1="joins9_v164" vertex2="joins9_v268" vertex3="joins9_v271"/>
+ <triangular vertex1="joins9_v167" vertex2="joins9_v165" vertex3="joins9_v272"/>
+ <triangular vertex1="joins9_v165" vertex2="joins9_v271" vertex3="joins9_v272"/>
+ <triangular vertex1="joins9_v169" vertex2="joins9_v167" vertex3="joins9_v274"/>
+ <triangular vertex1="joins9_v167" vertex2="joins9_v272" vertex3="joins9_v274"/>
+ <triangular vertex1="joins9_v173" vertex2="joins9_v169" vertex3="joins9_v277"/>
+ <triangular vertex1="joins9_v169" vertex2="joins9_v274" vertex3="joins9_v277"/>
+ <triangular vertex1="joins9_v173" vertex2="joins9_v277" vertex3="joins9_v281"/>
+ <triangular vertex1="joins9_v177" vertex2="joins9_v173" vertex3="joins9_v284"/>
+ <triangular vertex1="joins9_v173" vertex2="joins9_v281" vertex3="joins9_v284"/>
+ <triangular vertex1="joins9_v141" vertex2="joins9_v248" vertex3="joins9_v268"/>
+ <triangular vertex1="joins9_v161" vertex2="joins9_v141" vertex3="joins9_v268"/>
+ <triangular vertex1="joins9_v155" vertex2="joins9_v258" vertex3="joins9_v262"/>
+ <triangular vertex1="joins9_v155" vertex2="joins9_v150" vertex3="joins9_v258"/>
+ <triangular vertex1="joins9_v160" vertex2="joins9_v262" vertex3="joins9_v267"/>
+ <triangular vertex1="joins9_v160" vertex2="joins9_v155" vertex3="joins9_v262"/>
+ <triangular vertex1="joins9_v158" vertex2="joins9_v267" vertex3="joins9_v266"/>
+ <triangular vertex1="joins9_v158" vertex2="joins9_v160" vertex3="joins9_v267"/>
+ <triangular vertex1="joins9_v153" vertex2="joins9_v260" vertex3="joins9_v252"/>
+ <triangular vertex1="joins9_v153" vertex2="joins9_v266" vertex3="joins9_v260"/>
+ <triangular vertex1="joins9_v153" vertex2="joins9_v158" vertex3="joins9_v266"/>
+ <triangular vertex1="joins9_v145" vertex2="joins9_v153" vertex3="joins9_v252"/>
+ <triangular vertex1="joins9_v152" vertex2="joins9_v278" vertex3="joins9_v259"/>
+ <triangular vertex1="joins9_v152" vertex2="joins9_v171" vertex3="joins9_v278"/>
+ <triangular vertex1="joins9_v174" vertex2="joins9_v133" vertex3="joins9_v240"/>
+ <triangular vertex1="joins9_v170" vertex2="joins9_v174" vertex3="joins9_v280"/>
+ <triangular vertex1="joins9_v174" vertex2="joins9_v240" vertex3="joins9_v280"/>
+ <triangular vertex1="joins9_v168" vertex2="joins9_v170" vertex3="joins9_v276"/>
+ <triangular vertex1="joins9_v170" vertex2="joins9_v280" vertex3="joins9_v276"/>
+ <triangular vertex1="joins9_v166" vertex2="joins9_v168" vertex3="joins9_v275"/>
+ <triangular vertex1="joins9_v168" vertex2="joins9_v276" vertex3="joins9_v275"/>
+ <triangular vertex1="joins9_v162" vertex2="joins9_v166" vertex3="joins9_v273"/>
+ <triangular vertex1="joins9_v166" vertex2="joins9_v275" vertex3="joins9_v273"/>
+ <triangular vertex1="joins9_v163" vertex2="joins9_v162" vertex3="joins9_v270"/>
+ <triangular vertex1="joins9_v162" vertex2="joins9_v273" vertex3="joins9_v270"/>
+ <triangular vertex1="joins9_v163" vertex2="joins9_v270" vertex3="joins9_v269"/>
+ <triangular vertex1="joins9_v229" vertex2="joins9_v240" vertex3="joins9_v122"/>
+ <triangular vertex1="joins9_v240" vertex2="joins9_v133" vertex3="joins9_v122"/>
+ <triangular vertex1="joins9_v115" vertex2="joins9_v117" vertex3="joins9_v224"/>
+ <triangular vertex1="joins9_v112" vertex2="joins9_v115" vertex3="joins9_v222"/>
+ <triangular vertex1="joins9_v115" vertex2="joins9_v224" vertex3="joins9_v222"/>
+ <triangular vertex1="joins9_v109" vertex2="joins9_v112" vertex3="joins9_v219"/>
+ <triangular vertex1="joins9_v112" vertex2="joins9_v222" vertex3="joins9_v219"/>
+ <triangular vertex1="joins9_v113" vertex2="joins9_v109" vertex3="joins9_v218"/>
+ <triangular vertex1="joins9_v109" vertex2="joins9_v219" vertex3="joins9_v218"/>
+ <triangular vertex1="joins9_v116" vertex2="joins9_v113" vertex3="joins9_v221"/>
+ <triangular vertex1="joins9_v113" vertex2="joins9_v218" vertex3="joins9_v221"/>
+ <triangular vertex1="joins9_v118" vertex2="joins9_v116" vertex3="joins9_v223"/>
+ <triangular vertex1="joins9_v116" vertex2="joins9_v221" vertex3="joins9_v223"/>
+ <triangular vertex1="joins9_v119" vertex2="joins9_v118" vertex3="joins9_v225"/>
+ <triangular vertex1="joins9_v118" vertex2="joins9_v223" vertex3="joins9_v225"/>
+ <triangular vertex1="joins9_v120" vertex2="joins9_v119" vertex3="joins9_v226"/>
+ <triangular vertex1="joins9_v119" vertex2="joins9_v225" vertex3="joins9_v226"/>
+ <triangular vertex1="joins9_v121" vertex2="joins9_v120" vertex3="joins9_v227"/>
+ <triangular vertex1="joins9_v120" vertex2="joins9_v226" vertex3="joins9_v227"/>
+ <triangular vertex1="joins9_v122" vertex2="joins9_v121" vertex3="joins9_v228"/>
+ <triangular vertex1="joins9_v121" vertex2="joins9_v227" vertex3="joins9_v228"/>
+ <triangular vertex1="joins9_v122" vertex2="joins9_v228" vertex3="joins9_v229"/>
+ <triangular vertex1="joins9_v230" vertex2="joins9_v224" vertex3="joins9_v125"/>
+ <triangular vertex1="joins9_v224" vertex2="joins9_v117" vertex3="joins9_v125"/>
+ <triangular vertex1="joins9_v235" vertex2="joins9_v233" vertex3="joins9_v127"/>
+ <triangular vertex1="joins9_v235" vertex2="joins9_v127" vertex3="joins9_v128"/>
+ <triangular vertex1="joins9_v154" vertex2="joins9_v146" vertex3="joins9_v253"/>
+ <triangular vertex1="joins9_v154" vertex2="joins9_v253" vertex3="joins9_v261"/>
+ <triangular vertex1="joins9_v159" vertex2="joins9_v261" vertex3="joins9_v265"/>
+ <triangular vertex1="joins9_v159" vertex2="joins9_v154" vertex3="joins9_v261"/>
+ <triangular vertex1="joins9_v156" vertex2="joins9_v265" vertex3="joins9_v264"/>
+ <triangular vertex1="joins9_v156" vertex2="joins9_v159" vertex3="joins9_v265"/>
+ <triangular vertex1="joins9_v157" vertex2="joins9_v264" vertex3="joins9_v263"/>
+ <triangular vertex1="joins9_v157" vertex2="joins9_v156" vertex3="joins9_v264"/>
+ <triangular vertex1="joins9_v151" vertex2="joins9_v263" vertex3="joins9_v257"/>
+ <triangular vertex1="joins9_v151" vertex2="joins9_v157" vertex3="joins9_v263"/>
+ <triangular vertex1="joins9_v269" vertex2="joins9_v245" vertex3="joins9_v163"/>
+ <triangular vertex1="joins9_v245" vertex2="joins9_v138" vertex3="joins9_v163"/>
+ <triangular vertex1="joins9_v100" vertex2="joins9_v103" vertex3="joins9_v206"/>
+ <triangular vertex1="joins9_v206" vertex2="joins9_v103" vertex3="joins9_v208"/>
+ <triangular vertex1="joins9_v214" vertex2="joins9_v46" vertex3="joins9_v44"/>
+ <triangular vertex1="joins9_v46" vertex2="joins9_v214" vertex3="joins9_v48"/>
+ <triangular vertex1="joins9_v214" vertex2="joins9_v44" vertex3="joins9_v42"/>
+ <triangular vertex1="joins9_v48" vertex2="joins9_v214" vertex3="joins9_v50"/>
+ <triangular vertex1="joins9_v215" vertex2="joins9_v214" vertex3="joins9_v40"/>
+ <triangular vertex1="joins9_v214" vertex2="joins9_v42" vertex3="joins9_v40"/>
+ <triangular vertex1="joins9_v50" vertex2="joins9_v214" vertex3="joins9_v51"/>
+ <triangular vertex1="joins9_v215" vertex2="joins9_v40" vertex3="joins9_v38"/>
+ <triangular vertex1="joins9_v215" vertex2="joins9_v38" vertex3="joins9_v36"/>
+ <triangular vertex1="joins9_v215" vertex2="joins9_v36" vertex3="joins9_v34"/>
+ <triangular vertex1="joins9_v215" vertex2="joins9_v34" vertex3="joins9_v32"/>
+ <triangular vertex1="joins9_v215" vertex2="joins9_v32" vertex3="joins9_v30"/>
+ <triangular vertex1="joins9_v215" vertex2="joins9_v30" vertex3="joins9_v28"/>
+ <triangular vertex1="joins9_v302" vertex2="joins9_v303" vertex3="joins9_v107"/>
+ <triangular vertex1="joins9_v303" vertex2="joins9_v304" vertex3="joins9_v107"/>
+ <triangular vertex1="joins9_v304" vertex2="joins9_v305" vertex3="joins9_v107"/>
+ <triangular vertex1="joins9_v305" vertex2="joins9_v306" vertex3="joins9_v107"/>
+ <triangular vertex1="joins9_v306" vertex2="joins9_v307" vertex3="joins9_v107"/>
+ <triangular vertex1="joins9_v307" vertex2="joins9_v51" vertex3="joins9_v107"/>
+ <triangular vertex1="joins9_v51" vertex2="joins9_v214" vertex3="joins9_v107"/>
+ <triangular vertex1="joins9_v28" vertex2="joins9_v308" vertex3="joins9_v108"/>
+ <triangular vertex1="joins9_v308" vertex2="joins9_v309" vertex3="joins9_v108"/>
+ <triangular vertex1="joins9_v309" vertex2="joins9_v310" vertex3="joins9_v108"/>
+ <triangular vertex1="joins9_v310" vertex2="joins9_v311" vertex3="joins9_v108"/>
+ <triangular vertex1="joins9_v311" vertex2="joins9_v312" vertex3="joins9_v108"/>
+ <triangular vertex1="joins9_v312" vertex2="joins9_v302" vertex3="joins9_v108"/>
+ <triangular vertex1="joins9_v302" vertex2="joins9_v107" vertex3="joins9_v108"/>
+ <triangular vertex1="joins9_v215" vertex2="joins9_v28" vertex3="joins9_v108"/>
+ <triangular vertex1="joins9_v199" vertex2="joins9_v220" vertex3="joins9_v179"/>
+ <triangular vertex1="joins9_v220" vertex2="joins9_v114" vertex3="joins9_v179"/>
+ <triangular vertex1="joins9_v31" vertex2="joins9_v231" vertex3="joins9_v29"/>
+ <triangular vertex1="joins9_v231" vertex2="joins9_v31" vertex3="joins9_v33"/>
+ <triangular vertex1="joins9_v231" vertex2="joins9_v33" vertex3="joins9_v205"/>
+ <triangular vertex1="joins9_v205" vertex2="joins9_v33" vertex3="joins9_v35"/>
+ <triangular vertex1="joins9_v29" vertex2="joins9_v231" vertex3="joins9_v26"/>
+ <triangular vertex1="joins9_v205" vertex2="joins9_v35" vertex3="joins9_v37"/>
+ <triangular vertex1="joins9_v231" vertex2="joins9_v123" vertex3="joins9_v27"/>
+ <triangular vertex1="joins9_v26" vertex2="joins9_v231" vertex3="joins9_v27"/>
+ <triangular vertex1="joins9_v27" vertex2="joins9_v123" vertex3="joins9_v313"/>
+ <triangular vertex1="joins9_v205" vertex2="joins9_v37" vertex3="joins9_v39"/>
+ <triangular vertex1="joins9_v205" vertex2="joins9_v39" vertex3="joins9_v41"/>
+ <triangular vertex1="joins9_v313" vertex2="joins9_v123" vertex3="joins9_v314"/>
+ <triangular vertex1="joins9_v205" vertex2="joins9_v41" vertex3="joins9_v43"/>
+ <triangular vertex1="joins9_v314" vertex2="joins9_v123" vertex3="joins9_v315"/>
+ <triangular vertex1="joins9_v315" vertex2="joins9_v123" vertex3="joins9_v316"/>
+ <triangular vertex1="joins9_v205" vertex2="joins9_v43" vertex3="joins9_v45"/>
+ <triangular vertex1="joins9_v205" vertex2="joins9_v45" vertex3="joins9_v47"/>
+ <triangular vertex1="joins9_v205" vertex2="joins9_v47" vertex3="joins9_v49"/>
+ <triangular vertex1="joins9_v49" vertex2="joins9_v317" vertex3="joins9_v98"/>
+ <triangular vertex1="joins9_v317" vertex2="joins9_v318" vertex3="joins9_v98"/>
+ <triangular vertex1="joins9_v318" vertex2="joins9_v319" vertex3="joins9_v98"/>
+ <triangular vertex1="joins9_v319" vertex2="joins9_v320" vertex3="joins9_v98"/>
+ <triangular vertex1="joins9_v320" vertex2="joins9_v321" vertex3="joins9_v98"/>
+ <triangular vertex1="joins9_v321" vertex2="joins9_v322" vertex3="joins9_v98"/>
+ <triangular vertex1="joins9_v322" vertex2="joins9_v323" vertex3="joins9_v98"/>
+ <triangular vertex1="joins9_v323" vertex2="joins9_v316" vertex3="joins9_v98"/>
+ <triangular vertex1="joins9_v316" vertex2="joins9_v123" vertex3="joins9_v98"/>
+ <triangular vertex1="joins9_v205" vertex2="joins9_v49" vertex3="joins9_v98"/>
+ <triangular vertex1="joins9_v176" vertex2="joins9_v283" vertex3="joins9_v282"/>
+ <triangular vertex1="joins9_v175" vertex2="joins9_v176" vertex3="joins9_v282"/>
+ <triangular vertex1="joins9_v172" vertex2="joins9_v175" vertex3="joins9_v279"/>
+ <triangular vertex1="joins9_v175" vertex2="joins9_v282" vertex3="joins9_v279"/>
+ <triangular vertex1="joins9_v171" vertex2="joins9_v172" vertex3="joins9_v278"/>
+ <triangular vertex1="joins9_v172" vertex2="joins9_v279" vertex3="joins9_v278"/>
+ <triangular vertex1="joins9_v248" vertex2="joins9_v141" vertex3="joins9_v137"/>
+ <triangular vertex1="joins9_v244" vertex2="joins9_v248" vertex3="joins9_v137"/>
+ <triangular vertex1="joins9_v243" vertex2="joins9_v244" vertex3="joins9_v134"/>
+ <triangular vertex1="joins9_v244" vertex2="joins9_v137" vertex3="joins9_v134"/>
+ <triangular vertex1="joins9_v246" vertex2="joins9_v243" vertex3="joins9_v139"/>
+ <triangular vertex1="joins9_v243" vertex2="joins9_v134" vertex3="joins9_v139"/>
+ <triangular vertex1="joins9_v252" vertex2="joins9_v246" vertex3="joins9_v145"/>
+ <triangular vertex1="joins9_v246" vertex2="joins9_v139" vertex3="joins9_v145"/>
+ <triangular vertex1="joins9_v258" vertex2="joins9_v150" vertex3="joins9_v147"/>
+ <triangular vertex1="joins9_v255" vertex2="joins9_v258" vertex3="joins9_v147"/>
+ <triangular vertex1="joins9_v250" vertex2="joins9_v255" vertex3="joins9_v142"/>
+ <triangular vertex1="joins9_v255" vertex2="joins9_v147" vertex3="joins9_v142"/>
+ <triangular vertex1="joins9_v251" vertex2="joins9_v250" vertex3="joins9_v144"/>
+ <triangular vertex1="joins9_v250" vertex2="joins9_v142" vertex3="joins9_v144"/>
+ <triangular vertex1="joins9_v256" vertex2="joins9_v251" vertex3="joins9_v149"/>
+ <triangular vertex1="joins9_v251" vertex2="joins9_v144" vertex3="joins9_v149"/>
+ <triangular vertex1="joins9_v259" vertex2="joins9_v256" vertex3="joins9_v152"/>
+ <triangular vertex1="joins9_v256" vertex2="joins9_v149" vertex3="joins9_v152"/>
+ <triangular vertex1="joins9_v127" vertex2="joins9_v233" vertex3="joins9_v232"/>
+ <triangular vertex1="joins9_v126" vertex2="joins9_v127" vertex3="joins9_v232"/>
+ <triangular vertex1="joins9_v124" vertex2="joins9_v126" vertex3="joins9_v234"/>
+ <triangular vertex1="joins9_v126" vertex2="joins9_v232" vertex3="joins9_v234"/>
+ <triangular vertex1="joins9_v125" vertex2="joins9_v124" vertex3="joins9_v230"/>
+ <triangular vertex1="joins9_v124" vertex2="joins9_v234" vertex3="joins9_v230"/>
+ <triangular vertex1="joins9_v236" vertex2="joins9_v235" vertex3="joins9_v129"/>
+ <triangular vertex1="joins9_v235" vertex2="joins9_v128" vertex3="joins9_v129"/>
+ <triangular vertex1="joins9_v237" vertex2="joins9_v236" vertex3="joins9_v130"/>
+ <triangular vertex1="joins9_v236" vertex2="joins9_v129" vertex3="joins9_v130"/>
+ <triangular vertex1="joins9_v249" vertex2="joins9_v237" vertex3="joins9_v143"/>
+ <triangular vertex1="joins9_v237" vertex2="joins9_v130" vertex3="joins9_v143"/>
+ <triangular vertex1="joins9_v257" vertex2="joins9_v254" vertex3="joins9_v148"/>
+ <triangular vertex1="joins9_v254" vertex2="joins9_v249" vertex3="joins9_v148"/>
+ <triangular vertex1="joins9_v249" vertex2="joins9_v143" vertex3="joins9_v148"/>
+ <triangular vertex1="joins9_v257" vertex2="joins9_v148" vertex3="joins9_v151"/>
+ <triangular vertex1="joins9_v247" vertex2="joins9_v253" vertex3="joins9_v140"/>
+ <triangular vertex1="joins9_v253" vertex2="joins9_v146" vertex3="joins9_v140"/>
+ <triangular vertex1="joins9_v241" vertex2="joins9_v247" vertex3="joins9_v136"/>
+ <triangular vertex1="joins9_v247" vertex2="joins9_v140" vertex3="joins9_v136"/>
+ <triangular vertex1="joins9_v245" vertex2="joins9_v242" vertex3="joins9_v135"/>
+ <triangular vertex1="joins9_v242" vertex2="joins9_v241" vertex3="joins9_v135"/>
+ <triangular vertex1="joins9_v241" vertex2="joins9_v136" vertex3="joins9_v135"/>
+ <triangular vertex1="joins9_v245" vertex2="joins9_v135" vertex3="joins9_v138"/>
+ <triangular vertex1="joins9_v208" vertex2="joins9_v103" vertex3="joins9_v102"/>
+ <triangular vertex1="joins9_v209" vertex2="joins9_v102" vertex3="joins9_v101"/>
+ <triangular vertex1="joins9_v209" vertex2="joins9_v208" vertex3="joins9_v102"/>
+ <triangular vertex1="joins9_v210" vertex2="joins9_v101" vertex3="joins9_v105"/>
+ <triangular vertex1="joins9_v210" vertex2="joins9_v209" vertex3="joins9_v101"/>
+ <triangular vertex1="joins9_v211" vertex2="joins9_v105" vertex3="joins9_v104"/>
+ <triangular vertex1="joins9_v211" vertex2="joins9_v210" vertex3="joins9_v105"/>
+ <triangular vertex1="joins9_v212" vertex2="joins9_v104" vertex3="joins9_v106"/>
+ <triangular vertex1="joins9_v212" vertex2="joins9_v211" vertex3="joins9_v104"/>
+ <triangular vertex1="joins9_v213" vertex2="joins9_v106" vertex3="joins9_v107"/>
+ <triangular vertex1="joins9_v213" vertex2="joins9_v212" vertex3="joins9_v106"/>
+ <triangular vertex1="joins9_v214" vertex2="joins9_v213" vertex3="joins9_v107"/>
+ <triangular vertex1="joins9_v205" vertex2="joins9_v98" vertex3="joins9_v97"/>
+ <triangular vertex1="joins9_v204" vertex2="joins9_v97" vertex3="joins9_v96"/>
+ <triangular vertex1="joins9_v204" vertex2="joins9_v205" vertex3="joins9_v97"/>
+ <triangular vertex1="joins9_v201" vertex2="joins9_v96" vertex3="joins9_v95"/>
+ <triangular vertex1="joins9_v201" vertex2="joins9_v204" vertex3="joins9_v96"/>
+ <triangular vertex1="joins9_v202" vertex2="joins9_v95" vertex3="joins9_v94"/>
+ <triangular vertex1="joins9_v202" vertex2="joins9_v201" vertex3="joins9_v95"/>
+ <triangular vertex1="joins9_v203" vertex2="joins9_v94" vertex3="joins9_v99"/>
+ <triangular vertex1="joins9_v203" vertex2="joins9_v202" vertex3="joins9_v94"/>
+ <triangular vertex1="joins9_v207" vertex2="joins9_v99" vertex3="joins9_v100"/>
+ <triangular vertex1="joins9_v207" vertex2="joins9_v203" vertex3="joins9_v99"/>
+ <triangular vertex1="joins9_v206" vertex2="joins9_v207" vertex3="joins9_v100"/>
+ <triangular vertex1="joins9_v317" vertex2="joins9_v49" vertex3="joins9_v51"/>
+ <triangular vertex1="joins9_v318" vertex2="joins9_v317" vertex3="joins9_v307"/>
+ <triangular vertex1="joins9_v317" vertex2="joins9_v51" vertex3="joins9_v307"/>
+ <triangular vertex1="joins9_v319" vertex2="joins9_v318" vertex3="joins9_v306"/>
+ <triangular vertex1="joins9_v318" vertex2="joins9_v307" vertex3="joins9_v306"/>
+ <triangular vertex1="joins9_v320" vertex2="joins9_v319" vertex3="joins9_v305"/>
+ <triangular vertex1="joins9_v319" vertex2="joins9_v306" vertex3="joins9_v305"/>
+ <triangular vertex1="joins9_v321" vertex2="joins9_v320" vertex3="joins9_v304"/>
+ <triangular vertex1="joins9_v320" vertex2="joins9_v305" vertex3="joins9_v304"/>
+ <triangular vertex1="joins9_v322" vertex2="joins9_v321" vertex3="joins9_v303"/>
+ <triangular vertex1="joins9_v321" vertex2="joins9_v304" vertex3="joins9_v303"/>
+ <triangular vertex1="joins9_v323" vertex2="joins9_v322" vertex3="joins9_v302"/>
+ <triangular vertex1="joins9_v322" vertex2="joins9_v303" vertex3="joins9_v302"/>
+ <triangular vertex1="joins9_v316" vertex2="joins9_v323" vertex3="joins9_v312"/>
+ <triangular vertex1="joins9_v323" vertex2="joins9_v302" vertex3="joins9_v312"/>
+ <triangular vertex1="joins9_v315" vertex2="joins9_v316" vertex3="joins9_v311"/>
+ <triangular vertex1="joins9_v316" vertex2="joins9_v312" vertex3="joins9_v311"/>
+ <triangular vertex1="joins9_v314" vertex2="joins9_v315" vertex3="joins9_v310"/>
+ <triangular vertex1="joins9_v315" vertex2="joins9_v311" vertex3="joins9_v310"/>
+ <triangular vertex1="joins9_v313" vertex2="joins9_v314" vertex3="joins9_v309"/>
+ <triangular vertex1="joins9_v314" vertex2="joins9_v310" vertex3="joins9_v309"/>
+ <triangular vertex1="joins9_v27" vertex2="joins9_v313" vertex3="joins9_v308"/>
+ <triangular vertex1="joins9_v313" vertex2="joins9_v309" vertex3="joins9_v308"/>
+ <triangular vertex1="joins9_v27" vertex2="joins9_v308" vertex3="joins9_v28"/>
+ <triangular vertex1="joins9_v215" vertex2="joins9_v108" vertex3="joins9_v110"/>
+ <triangular vertex1="joins9_v216" vertex2="joins9_v215" vertex3="joins9_v110"/>
+ <triangular vertex1="joins9_v217" vertex2="joins9_v216" vertex3="joins9_v111"/>
+ <triangular vertex1="joins9_v216" vertex2="joins9_v110" vertex3="joins9_v111"/>
+ <triangular vertex1="joins9_v220" vertex2="joins9_v217" vertex3="joins9_v114"/>
+ <triangular vertex1="joins9_v217" vertex2="joins9_v111" vertex3="joins9_v114"/>
+ </tessellated>
+ <box lunit="mm" name="worldsolid" x="1000" y="1000" z="1000"/>
+ </solids>
+ <structure>
+ <volume name="joins9">
+ <materialref ref="G4_Si"/>
+ <solidref ref="joins9_solid"/>
+ </volume>
+ </structure>
+ <setup name="Default" version="1.0">
+ <world ref="joins9"/>
+ </setup>
+</gdml>

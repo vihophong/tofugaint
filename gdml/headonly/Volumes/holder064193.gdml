@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+ <define>
+ <position name="holder064193_v0" unit="mm" x="-224.604057913" y="1133.24931819" z="-389.975"/>
+ <position name="holder064193_v1" unit="mm" x="-225.253376755" y="1136.17820621" z="-389.975"/>
+ <position name="holder064193_v2" unit="mm" x="-224.994375655" y="1136.23562537" z="-390.009926028"/>
+ <position name="holder064193_v3" unit="mm" x="-224.345056813" y="1133.30673735" z="-390.009926028"/>
+ <position name="holder064193_v4" unit="mm" x="-224.10370621" y="1133.36024349" z="-390.112323961"/>
+ <position name="holder064193_v5" unit="mm" x="-224.753025052" y="1136.28913151" z="-390.112323961"/>
+ <position name="holder064193_v6" unit="mm" x="-223.896453748" y="1133.40619025" z="-390.275215549"/>
+ <position name="holder064193_v7" unit="mm" x="-224.54577259" y="1136.33507827" z="-390.275215549"/>
+ <position name="holder064193_v8" unit="mm" x="-223.737423341" y="1133.44144645" z="-390.4875"/>
+ <position name="holder064193_v9" unit="mm" x="-223.637452648" y="1133.46360941" z="-390.734710479"/>
+ <position name="holder064193_v10" unit="mm" x="-224.386742183" y="1136.37033447" z="-390.4875"/>
+ <position name="holder064193_v11" unit="mm" x="-224.28677149" y="1136.39249744" z="-390.734710479"/>
+ <position name="holder064193_v12" unit="mm" x="-223.603354506" y="1133.47116879" z="-391.0"/>
+ <position name="holder064193_v13" unit="mm" x="-224.252673348" y="1136.40005681" z="-391.0"/>
+ <position name="holder064193_v14" unit="mm" x="-223.637452648" y="1133.46360941" z="-391.265289521"/>
+ <position name="holder064193_v15" unit="mm" x="-224.28677149" y="1136.39249744" z="-391.265289521"/>
+ <position name="holder064193_v16" unit="mm" x="-223.737423341" y="1133.44144645" z="-391.5125"/>
+ <position name="holder064193_v17" unit="mm" x="-224.386742183" y="1136.37033447" z="-391.5125"/>
+ <position name="holder064193_v18" unit="mm" x="-223.896453748" y="1133.40619025" z="-391.724784451"/>
+ <position name="holder064193_v19" unit="mm" x="-224.54577259" y="1136.33507827" z="-391.724784451"/>
+ <position name="holder064193_v20" unit="mm" x="-224.10370621" y="1133.36024349" z="-391.887676039"/>
+ <position name="holder064193_v21" unit="mm" x="-224.753025052" y="1136.28913151" z="-391.887676039"/>
+ <position name="holder064193_v22" unit="mm" x="-224.345056813" y="1133.30673735" z="-391.990073972"/>
+ <position name="holder064193_v23" unit="mm" x="-224.994375655" y="1136.23562537" z="-391.990073972"/>
+ <position name="holder064193_v24" unit="mm" x="-224.604057913" y="1133.24931819" z="-392.025"/>
+ <position name="holder064193_v25" unit="mm" x="-225.253376755" y="1136.17820621" z="-392.025"/>
+ <position name="holder064193_v26" unit="mm" x="-275.371450284" y="1121.99445826" z="-389.975"/>
+ <position name="holder064193_v27" unit="mm" x="-276.020769125" y="1124.92334628" z="-389.975"/>
+ <position name="holder064193_v28" unit="mm" x="-275.761768025" y="1124.98076544" z="-390.009926028"/>
+ <position name="holder064193_v29" unit="mm" x="-275.112449183" y="1122.05187742" z="-390.009926028"/>
+ <position name="holder064193_v30" unit="mm" x="-274.87109858" y="1122.10538356" z="-390.112323961"/>
+ <position name="holder064193_v31" unit="mm" x="-275.520417422" y="1125.03427159" z="-390.112323961"/>
+ <position name="holder064193_v32" unit="mm" x="-274.663846118" y="1122.15133033" z="-390.275215549"/>
+ <position name="holder064193_v33" unit="mm" x="-275.31316496" y="1125.08021835" z="-390.275215549"/>
+ <position name="holder064193_v34" unit="mm" x="-274.504815711" y="1122.18658652" z="-390.4875"/>
+ <position name="holder064193_v35" unit="mm" x="-275.154134553" y="1125.11547454" z="-390.4875"/>
+ <position name="holder064193_v36" unit="mm" x="-274.404845018" y="1122.20874949" z="-390.734710479"/>
+ <position name="holder064193_v37" unit="mm" x="-275.05416386" y="1125.13763751" z="-390.734710479"/>
+ <position name="holder064193_v38" unit="mm" x="-274.370746876" y="1122.21630887" z="-391.0"/>
+ <position name="holder064193_v39" unit="mm" x="-275.020065718" y="1125.14519689" z="-391.0"/>
+ <position name="holder064193_v40" unit="mm" x="-274.404845018" y="1122.20874949" z="-391.265289521"/>
+ <position name="holder064193_v41" unit="mm" x="-275.05416386" y="1125.13763751" z="-391.265289521"/>
+ <position name="holder064193_v42" unit="mm" x="-274.504815711" y="1122.18658652" z="-391.5125"/>
+ <position name="holder064193_v43" unit="mm" x="-275.154134553" y="1125.11547454" z="-391.5125"/>
+ <position name="holder064193_v44" unit="mm" x="-274.663846118" y="1122.15133033" z="-391.724784451"/>
+ <position name="holder064193_v45" unit="mm" x="-275.31316496" y="1125.08021835" z="-391.724784451"/>
+ <position name="holder064193_v46" unit="mm" x="-274.87109858" y="1122.10538356" z="-391.887676039"/>
+ <position name="holder064193_v47" unit="mm" x="-275.520417422" y="1125.03427159" z="-391.887676039"/>
+ <position name="holder064193_v48" unit="mm" x="-275.112449183" y="1122.05187742" z="-391.990073972"/>
+ <position name="holder064193_v49" unit="mm" x="-275.761768025" y="1124.98076544" z="-391.990073972"/>
+ <position name="holder064193_v50" unit="mm" x="-275.371450284" y="1121.99445826" z="-392.025"/>
+ <position name="holder064193_v51" unit="mm" x="-276.020769125" y="1124.92334628" z="-392.025"/>
+ <position name="holder064193_v52" unit="mm" x="-206.943369678" y="1095.16913842" z="-350.0"/>
+ <position name="holder064193_v53" unit="mm" x="-209.872257699" y="1094.51981958" z="-350.0"/>
+ <position name="holder064193_v54" unit="mm" x="-209.872257699" y="1094.51981958" z="-430.0"/>
+ <position name="holder064193_v55" unit="mm" x="-206.943369678" y="1095.16913842" z="-430.0"/>
+ <position name="holder064193_v56" unit="mm" x="-218.096963029" y="1131.61906785" z="-350.0"/>
+ <position name="holder064193_v57" unit="mm" x="-218.096963029" y="1131.61906785" z="-430.0"/>
+ <position name="holder064193_v58" unit="mm" x="-218.364818551" y="1132.35499485" z="-350.0"/>
+ <position name="holder064193_v59" unit="mm" x="-218.364818551" y="1132.35499485" z="-430.0"/>
+ <position name="holder064193_v60" unit="mm" x="-218.81401904" y="1132.99651963" z="-430.0"/>
+ <position name="holder064193_v61" unit="mm" x="-218.81401904" y="1132.99651963" z="-350.0"/>
+ <position name="holder064193_v62" unit="mm" x="-219.413952225" y="1133.49992334" z="-430.0"/>
+ <position name="holder064193_v63" unit="mm" x="-219.413952225" y="1133.49992334" z="-350.0"/>
+ <position name="holder064193_v64" unit="mm" x="-220.123733652" y="1133.83089986" z="-430.0"/>
+ <position name="holder064193_v65" unit="mm" x="-220.123733652" y="1133.83089986" z="-350.0"/>
+ <position name="holder064193_v66" unit="mm" x="-220.894992888" y="1133.96689367" z="-430.0"/>
+ <position name="holder064193_v67" unit="mm" x="-220.894992888" y="1133.96689367" z="-350.0"/>
+ <position name="holder064193_v68" unit="mm" x="-221.675169892" y="1133.89863703" z="-430.0"/>
+ <position name="holder064193_v69" unit="mm" x="-221.675169892" y="1133.89863703" z="-350.0"/>
+ <position name="holder064193_v70" unit="mm" x="-225.570663179" y="1133.03502696" z="-391.265289521"/>
+ <position name="holder064193_v71" unit="mm" x="-275.630451384" y="1121.9370391" z="-390.009926028"/>
+ <position name="holder064193_v72" unit="mm" x="-278.300338305" y="1121.34513942" z="-350.0"/>
+ <position name="holder064193_v73" unit="mm" x="-275.871801987" y="1121.88353296" z="-390.112323961"/>
+ <position name="holder064193_v74" unit="mm" x="-225.470692486" y="1133.05718993" z="-391.5125"/>
+ <position name="holder064193_v75" unit="mm" x="-276.079054449" y="1121.83758619" z="-390.275215549"/>
+ <position name="holder064193_v76" unit="mm" x="-225.311662079" y="1133.09244612" z="-391.724784451"/>
+ <position name="holder064193_v77" unit="mm" x="-276.238084856" y="1121.80233" z="-390.4875"/>
+ <position name="holder064193_v78" unit="mm" x="-224.863059014" y="1133.19189902" z="-390.009926028"/>
+ <position name="holder064193_v79" unit="mm" x="-225.104409617" y="1133.13839288" z="-390.112323961"/>
+ <position name="holder064193_v80" unit="mm" x="-225.311662079" y="1133.09244612" z="-390.275215549"/>
+ <position name="holder064193_v81" unit="mm" x="-278.300338305" y="1121.34513942" z="-430.0"/>
+ <position name="holder064193_v82" unit="mm" x="-275.630451384" y="1121.9370391" z="-391.990073972"/>
+ <position name="holder064193_v83" unit="mm" x="-275.871801987" y="1121.88353296" z="-391.887676039"/>
+ <position name="holder064193_v84" unit="mm" x="-276.079054449" y="1121.83758619" z="-391.724784451"/>
+ <position name="holder064193_v85" unit="mm" x="-276.238084856" y="1121.80233" z="-391.5125"/>
+ <position name="holder064193_v86" unit="mm" x="-276.372153691" y="1121.77260766" z="-391.0"/>
+ <position name="holder064193_v87" unit="mm" x="-276.338055549" y="1121.78016703" z="-391.265289521"/>
+ <position name="holder064193_v88" unit="mm" x="-276.338055549" y="1121.78016703" z="-390.734710479"/>
+ <position name="holder064193_v89" unit="mm" x="-224.863059014" y="1133.19189902" z="-391.990073972"/>
+ <position name="holder064193_v90" unit="mm" x="-225.104409617" y="1133.13839288" z="-391.887676039"/>
+ <position name="holder064193_v91" unit="mm" x="-225.470692486" y="1133.05718993" z="-390.4875"/>
+ <position name="holder064193_v92" unit="mm" x="-225.604761321" y="1133.02746758" z="-391.0"/>
+ <position name="holder064193_v93" unit="mm" x="-225.570663179" y="1133.03502696" z="-390.734710479"/>
+ <position name="holder064193_v94" unit="mm" x="-279.036265303" y="1121.0772839" z="-350.0"/>
+ <position name="holder064193_v95" unit="mm" x="-279.036265303" y="1121.0772839" z="-430.0"/>
+ <position name="holder064193_v96" unit="mm" x="-279.677790086" y="1120.62808341" z="-430.0"/>
+ <position name="holder064193_v97" unit="mm" x="-279.677790086" y="1120.62808341" z="-350.0"/>
+ <position name="holder064193_v98" unit="mm" x="-280.181193801" y="1120.02815022" z="-430.0"/>
+ <position name="holder064193_v99" unit="mm" x="-280.181193801" y="1120.02815022" z="-350.0"/>
+ <position name="holder064193_v100" unit="mm" x="-280.512170315" y="1119.3183688" z="-430.0"/>
+ <position name="holder064193_v101" unit="mm" x="-280.512170315" y="1119.3183688" z="-350.0"/>
+ <position name="holder064193_v102" unit="mm" x="-280.648164128" y="1118.54710956" z="-430.0"/>
+ <position name="holder064193_v103" unit="mm" x="-280.648164128" y="1118.54710956" z="-350.0"/>
+ <position name="holder064193_v104" unit="mm" x="-280.579907484" y="1117.76693256" z="-430.0"/>
+ <position name="holder064193_v105" unit="mm" x="-280.579907484" y="1117.76693256" z="-350.0"/>
+ <position name="holder064193_v106" unit="mm" x="-272.355202155" y="1080.66768429" z="-430.0"/>
+ <position name="holder064193_v107" unit="mm" x="-272.355202155" y="1080.66768429" z="-350.0"/>
+ <position name="holder064193_v108" unit="mm" x="-275.284090176" y="1080.01836544" z="-350.0"/>
+ <position name="holder064193_v109" unit="mm" x="-275.284090176" y="1080.01836544" z="-430.0"/>
+ <position name="holder064193_v110" unit="mm" x="-283.508795506" y="1117.11761371" z="-350.0"/>
+ <position name="holder064193_v111" unit="mm" x="-283.508795506" y="1117.11761371" z="-430.0"/>
+ <position name="holder064193_v112" unit="mm" x="-278.949657147" y="1124.27402744" z="-350.0"/>
+ <position name="holder064193_v113" unit="mm" x="-278.949657147" y="1124.27402744" z="-430.0"/>
+ <position name="holder064193_v114" unit="mm" x="-279.703140323" y="1124.05440712" z="-430.0"/>
+ <position name="holder064193_v115" unit="mm" x="-279.703140323" y="1124.05440712" z="-350.0"/>
+ <position name="holder064193_v116" unit="mm" x="-280.421511143" y="1123.7383164" z="-350.0"/>
+ <position name="holder064193_v117" unit="mm" x="-280.421511143" y="1123.7383164" z="-430.0"/>
+ <position name="holder064193_v118" unit="mm" x="-281.092478081" y="1123.33116366" z="-350.0"/>
+ <position name="holder064193_v119" unit="mm" x="-281.092478081" y="1123.33116366" z="-430.0"/>
+ <position name="holder064193_v120" unit="mm" x="-281.704560709" y="1122.83991542" z="-350.0"/>
+ <position name="holder064193_v121" unit="mm" x="-281.704560709" y="1122.83991542" z="-430.0"/>
+ <position name="holder064193_v122" unit="mm" x="-282.247286122" y="1122.27297706" z="-350.0"/>
+ <position name="holder064193_v123" unit="mm" x="-282.247286122" y="1122.27297706" z="-430.0"/>
+ <position name="holder064193_v124" unit="mm" x="-282.711368138" y="1121.64004905" z="-430.0"/>
+ <position name="holder064193_v125" unit="mm" x="-282.711368138" y="1121.64004905" z="-350.0"/>
+ <position name="holder064193_v126" unit="mm" x="-283.088866185" y="1120.95196097" z="-350.0"/>
+ <position name="holder064193_v127" unit="mm" x="-283.088866185" y="1120.95196097" z="-430.0"/>
+ <position name="holder064193_v128" unit="mm" x="-283.373321168" y="1120.2204862" z="-350.0"/>
+ <position name="holder064193_v129" unit="mm" x="-283.373321168" y="1120.2204862" z="-430.0"/>
+ <position name="holder064193_v130" unit="mm" x="-283.559865981" y="1119.45814046" z="-350.0"/>
+ <position name="holder064193_v131" unit="mm" x="-283.559865981" y="1119.45814046" z="-430.0"/>
+ <position name="holder064193_v132" unit="mm" x="-283.645308793" y="1118.67796772" z="-430.0"/>
+ <position name="holder064193_v133" unit="mm" x="-283.645308793" y="1118.67796772" z="-350.0"/>
+ <position name="holder064193_v134" unit="mm" x="-283.628187652" y="1117.89331694" z="-350.0"/>
+ <position name="holder064193_v135" unit="mm" x="-283.628187652" y="1117.89331694" z="-430.0"/>
+ <position name="holder064193_v136" unit="mm" x="-276.279770226" y="1124.86592712" z="-390.009926028"/>
+ <position name="holder064193_v137" unit="mm" x="-226.254080162" y="1135.9563556" z="-391.0"/>
+ <position name="holder064193_v138" unit="mm" x="-226.219982021" y="1135.96391498" z="-391.265289521"/>
+ <position name="holder064193_v139" unit="mm" x="-276.521120829" y="1124.81242098" z="-390.112323961"/>
+ <position name="holder064193_v140" unit="mm" x="-222.324488734" y="1136.82752505" z="-350.0"/>
+ <position name="holder064193_v141" unit="mm" x="-226.120011328" y="1135.98607795" z="-391.5125"/>
+ <position name="holder064193_v142" unit="mm" x="-276.728373291" y="1124.76647422" z="-390.275215549"/>
+ <position name="holder064193_v143" unit="mm" x="-225.96098092" y="1136.02133414" z="-391.724784451"/>
+ <position name="holder064193_v144" unit="mm" x="-276.887403698" y="1124.73121802" z="-390.4875"/>
+ <position name="holder064193_v145" unit="mm" x="-225.512377855" y="1136.12078705" z="-390.009926028"/>
+ <position name="holder064193_v146" unit="mm" x="-276.987374391" y="1124.70905505" z="-390.734710479"/>
+ <position name="holder064193_v147" unit="mm" x="-225.753728459" y="1136.06728091" z="-390.112323961"/>
+ <position name="holder064193_v148" unit="mm" x="-225.96098092" y="1136.02133414" z="-390.275215549"/>
+ <position name="holder064193_v149" unit="mm" x="-276.279770226" y="1124.86592712" z="-391.990073972"/>
+ <position name="holder064193_v150" unit="mm" x="-276.521120829" y="1124.81242098" z="-391.887676039"/>
+ <position name="holder064193_v151" unit="mm" x="-276.728373291" y="1124.76647422" z="-391.724784451"/>
+ <position name="holder064193_v152" unit="mm" x="-276.887403698" y="1124.73121802" z="-391.5125"/>
+ <position name="holder064193_v153" unit="mm" x="-276.987374391" y="1124.70905505" z="-391.265289521"/>
+ <position name="holder064193_v154" unit="mm" x="-277.021472533" y="1124.70149568" z="-391.0"/>
+ <position name="holder064193_v155" unit="mm" x="-222.324488734" y="1136.82752505" z="-430.0"/>
+ <position name="holder064193_v156" unit="mm" x="-225.512377855" y="1136.12078705" z="-391.990073972"/>
+ <position name="holder064193_v157" unit="mm" x="-225.753728459" y="1136.06728091" z="-391.887676039"/>
+ <position name="holder064193_v158" unit="mm" x="-226.120011328" y="1135.98607795" z="-390.4875"/>
+ <position name="holder064193_v159" unit="mm" x="-226.219982021" y="1135.96391498" z="-390.734710479"/>
+ <position name="holder064193_v160" unit="mm" x="-215.168075007" y="1132.26838669" z="-350.0"/>
+ <position name="holder064193_v161" unit="mm" x="-215.168075007" y="1132.26838669" z="-430.0"/>
+ <position name="holder064193_v162" unit="mm" x="-215.387695325" y="1133.02186987" z="-430.0"/>
+ <position name="holder064193_v163" unit="mm" x="-215.387695325" y="1133.02186987" z="-350.0"/>
+ <position name="holder064193_v164" unit="mm" x="-215.703786051" y="1133.74024069" z="-350.0"/>
+ <position name="holder064193_v165" unit="mm" x="-215.703786051" y="1133.74024069" z="-430.0"/>
+ <position name="holder064193_v166" unit="mm" x="-216.110938784" y="1134.41120762" z="-350.0"/>
+ <position name="holder064193_v167" unit="mm" x="-216.110938784" y="1134.41120762" z="-430.0"/>
+ <position name="holder064193_v168" unit="mm" x="-216.602187029" y="1135.02329025" z="-350.0"/>
+ <position name="holder064193_v169" unit="mm" x="-216.602187029" y="1135.02329025" z="-430.0"/>
+ <position name="holder064193_v170" unit="mm" x="-217.169125392" y="1135.56601567" z="-350.0"/>
+ <position name="holder064193_v171" unit="mm" x="-217.169125392" y="1135.56601567" z="-430.0"/>
+ <position name="holder064193_v172" unit="mm" x="-217.8020534" y="1136.03009768" z="-430.0"/>
+ <position name="holder064193_v173" unit="mm" x="-217.8020534" y="1136.03009768" z="-350.0"/>
+ <position name="holder064193_v174" unit="mm" x="-218.49014148" y="1136.40759573" z="-430.0"/>
+ <position name="holder064193_v175" unit="mm" x="-218.49014148" y="1136.40759573" z="-350.0"/>
+ <position name="holder064193_v176" unit="mm" x="-219.221616253" y="1136.69205071" z="-350.0"/>
+ <position name="holder064193_v177" unit="mm" x="-219.221616253" y="1136.69205071" z="-430.0"/>
+ <position name="holder064193_v178" unit="mm" x="-219.983961984" y="1136.87859552" z="-430.0"/>
+ <position name="holder064193_v179" unit="mm" x="-219.983961984" y="1136.87859552" z="-350.0"/>
+ <position name="holder064193_v180" unit="mm" x="-220.764134726" y="1136.96403834" z="-350.0"/>
+ <position name="holder064193_v181" unit="mm" x="-220.764134726" y="1136.96403834" z="-430.0"/>
+ <position name="holder064193_v182" unit="mm" x="-221.548785507" y="1136.9469172" z="-430.0"/>
+ <position name="holder064193_v183" unit="mm" x="-221.548785507" y="1136.9469172" z="-350.0"/>
+ </define>
+
+ <solids>
+ <tessellated aunit="deg" lunit="mm" name="holder064193_solid">
+ <triangular vertex1="holder064193_v0" vertex2="holder064193_v1" vertex3="holder064193_v2"/>
+ <triangular vertex1="holder064193_v3" vertex2="holder064193_v0" vertex3="holder064193_v2"/>
+ <triangular vertex1="holder064193_v4" vertex2="holder064193_v3" vertex3="holder064193_v2"/>
+ <triangular vertex1="holder064193_v4" vertex2="holder064193_v2" vertex3="holder064193_v5"/>
+ <triangular vertex1="holder064193_v6" vertex2="holder064193_v4" vertex3="holder064193_v7"/>
+ <triangular vertex1="holder064193_v8" vertex2="holder064193_v6" vertex3="holder064193_v7"/>
+ <triangular vertex1="holder064193_v4" vertex2="holder064193_v5" vertex3="holder064193_v7"/>
+ <triangular vertex1="holder064193_v9" vertex2="holder064193_v8" vertex3="holder064193_v10"/>
+ <triangular vertex1="holder064193_v8" vertex2="holder064193_v7" vertex3="holder064193_v10"/>
+ <triangular vertex1="holder064193_v9" vertex2="holder064193_v10" vertex3="holder064193_v11"/>
+ <triangular vertex1="holder064193_v12" vertex2="holder064193_v9" vertex3="holder064193_v13"/>
+ <triangular vertex1="holder064193_v9" vertex2="holder064193_v11" vertex3="holder064193_v13"/>
+ <triangular vertex1="holder064193_v14" vertex2="holder064193_v12" vertex3="holder064193_v15"/>
+ <triangular vertex1="holder064193_v12" vertex2="holder064193_v13" vertex3="holder064193_v15"/>
+ <triangular vertex1="holder064193_v16" vertex2="holder064193_v14" vertex3="holder064193_v17"/>
+ <triangular vertex1="holder064193_v18" vertex2="holder064193_v16" vertex3="holder064193_v17"/>
+ <triangular vertex1="holder064193_v14" vertex2="holder064193_v15" vertex3="holder064193_v17"/>
+ <triangular vertex1="holder064193_v18" vertex2="holder064193_v17" vertex3="holder064193_v19"/>
+ <triangular vertex1="holder064193_v20" vertex2="holder064193_v18" vertex3="holder064193_v21"/>
+ <triangular vertex1="holder064193_v18" vertex2="holder064193_v19" vertex3="holder064193_v21"/>
+ <triangular vertex1="holder064193_v22" vertex2="holder064193_v20" vertex3="holder064193_v23"/>
+ <triangular vertex1="holder064193_v20" vertex2="holder064193_v21" vertex3="holder064193_v23"/>
+ <triangular vertex1="holder064193_v24" vertex2="holder064193_v22" vertex3="holder064193_v25"/>
+ <triangular vertex1="holder064193_v22" vertex2="holder064193_v23" vertex3="holder064193_v25"/>
+ <triangular vertex1="holder064193_v26" vertex2="holder064193_v27" vertex3="holder064193_v28"/>
+ <triangular vertex1="holder064193_v29" vertex2="holder064193_v26" vertex3="holder064193_v28"/>
+ <triangular vertex1="holder064193_v30" vertex2="holder064193_v29" vertex3="holder064193_v31"/>
+ <triangular vertex1="holder064193_v32" vertex2="holder064193_v30" vertex3="holder064193_v31"/>
+ <triangular vertex1="holder064193_v29" vertex2="holder064193_v28" vertex3="holder064193_v31"/>
+ <triangular vertex1="holder064193_v32" vertex2="holder064193_v31" vertex3="holder064193_v33"/>
+ <triangular vertex1="holder064193_v34" vertex2="holder064193_v32" vertex3="holder064193_v35"/>
+ <triangular vertex1="holder064193_v36" vertex2="holder064193_v34" vertex3="holder064193_v35"/>
+ <triangular vertex1="holder064193_v32" vertex2="holder064193_v33" vertex3="holder064193_v35"/>
+ <triangular vertex1="holder064193_v36" vertex2="holder064193_v35" vertex3="holder064193_v37"/>
+ <triangular vertex1="holder064193_v38" vertex2="holder064193_v36" vertex3="holder064193_v39"/>
+ <triangular vertex1="holder064193_v36" vertex2="holder064193_v37" vertex3="holder064193_v39"/>
+ <triangular vertex1="holder064193_v40" vertex2="holder064193_v38" vertex3="holder064193_v41"/>
+ <triangular vertex1="holder064193_v38" vertex2="holder064193_v39" vertex3="holder064193_v41"/>
+ <triangular vertex1="holder064193_v42" vertex2="holder064193_v40" vertex3="holder064193_v43"/>
+ <triangular vertex1="holder064193_v44" vertex2="holder064193_v42" vertex3="holder064193_v43"/>
+ <triangular vertex1="holder064193_v40" vertex2="holder064193_v41" vertex3="holder064193_v43"/>
+ <triangular vertex1="holder064193_v44" vertex2="holder064193_v43" vertex3="holder064193_v45"/>
+ <triangular vertex1="holder064193_v46" vertex2="holder064193_v44" vertex3="holder064193_v47"/>
+ <triangular vertex1="holder064193_v44" vertex2="holder064193_v45" vertex3="holder064193_v47"/>
+ <triangular vertex1="holder064193_v48" vertex2="holder064193_v46" vertex3="holder064193_v49"/>
+ <triangular vertex1="holder064193_v50" vertex2="holder064193_v48" vertex3="holder064193_v49"/>
+ <triangular vertex1="holder064193_v46" vertex2="holder064193_v47" vertex3="holder064193_v49"/>
+ <triangular vertex1="holder064193_v50" vertex2="holder064193_v49" vertex3="holder064193_v51"/>
+ <triangular vertex1="holder064193_v52" vertex2="holder064193_v53" vertex3="holder064193_v54"/>
+ <triangular vertex1="holder064193_v55" vertex2="holder064193_v52" vertex3="holder064193_v54"/>
+ <triangular vertex1="holder064193_v53" vertex2="holder064193_v56" vertex3="holder064193_v54"/>
+ <triangular vertex1="holder064193_v54" vertex2="holder064193_v56" vertex3="holder064193_v57"/>
+ <triangular vertex1="holder064193_v57" vertex2="holder064193_v56" vertex3="holder064193_v58"/>
+ <triangular vertex1="holder064193_v59" vertex2="holder064193_v57" vertex3="holder064193_v58"/>
+ <triangular vertex1="holder064193_v60" vertex2="holder064193_v59" vertex3="holder064193_v61"/>
+ <triangular vertex1="holder064193_v59" vertex2="holder064193_v58" vertex3="holder064193_v61"/>
+ <triangular vertex1="holder064193_v62" vertex2="holder064193_v60" vertex3="holder064193_v63"/>
+ <triangular vertex1="holder064193_v64" vertex2="holder064193_v62" vertex3="holder064193_v63"/>
+ <triangular vertex1="holder064193_v60" vertex2="holder064193_v61" vertex3="holder064193_v63"/>
+ <triangular vertex1="holder064193_v64" vertex2="holder064193_v63" vertex3="holder064193_v65"/>
+ <triangular vertex1="holder064193_v66" vertex2="holder064193_v64" vertex3="holder064193_v67"/>
+ <triangular vertex1="holder064193_v68" vertex2="holder064193_v66" vertex3="holder064193_v67"/>
+ <triangular vertex1="holder064193_v64" vertex2="holder064193_v65" vertex3="holder064193_v67"/>
+ <triangular vertex1="holder064193_v68" vertex2="holder064193_v67" vertex3="holder064193_v69"/>
+ <triangular vertex1="holder064193_v70" vertex2="holder064193_v38" vertex3="holder064193_v40"/>
+ <triangular vertex1="holder064193_v71" vertex2="holder064193_v72" vertex3="holder064193_v73"/>
+ <triangular vertex1="holder064193_v69" vertex2="holder064193_v6" vertex3="holder064193_v8"/>
+ <triangular vertex1="holder064193_v70" vertex2="holder064193_v40" vertex3="holder064193_v42"/>
+ <triangular vertex1="holder064193_v74" vertex2="holder064193_v70" vertex3="holder064193_v42"/>
+ <triangular vertex1="holder064193_v6" vertex2="holder064193_v69" vertex3="holder064193_v4"/>
+ <triangular vertex1="holder064193_v4" vertex2="holder064193_v69" vertex3="holder064193_v3"/>
+ <triangular vertex1="holder064193_v73" vertex2="holder064193_v72" vertex3="holder064193_v75"/>
+ <triangular vertex1="holder064193_v69" vertex2="holder064193_v8" vertex3="holder064193_v9"/>
+ <triangular vertex1="holder064193_v74" vertex2="holder064193_v42" vertex3="holder064193_v44"/>
+ <triangular vertex1="holder064193_v76" vertex2="holder064193_v74" vertex3="holder064193_v44"/>
+ <triangular vertex1="holder064193_v69" vertex2="holder064193_v9" vertex3="holder064193_v12"/>
+ <triangular vertex1="holder064193_v75" vertex2="holder064193_v72" vertex3="holder064193_v77"/>
+ <triangular vertex1="holder064193_v3" vertex2="holder064193_v69" vertex3="holder064193_v0"/>
+ <triangular vertex1="holder064193_v0" vertex2="holder064193_v69" vertex3="holder064193_v78"/>
+ <triangular vertex1="holder064193_v78" vertex2="holder064193_v69" vertex3="holder064193_v79"/>
+ <triangular vertex1="holder064193_v79" vertex2="holder064193_v69" vertex3="holder064193_v80"/>
+ <triangular vertex1="holder064193_v76" vertex2="holder064193_v44" vertex3="holder064193_v81"/>
+ <triangular vertex1="holder064193_v50" vertex2="holder064193_v82" vertex3="holder064193_v81"/>
+ <triangular vertex1="holder064193_v82" vertex2="holder064193_v83" vertex3="holder064193_v81"/>
+ <triangular vertex1="holder064193_v83" vertex2="holder064193_v84" vertex3="holder064193_v81"/>
+ <triangular vertex1="holder064193_v84" vertex2="holder064193_v85" vertex3="holder064193_v81"/>
+ <triangular vertex1="holder064193_v44" vertex2="holder064193_v46" vertex3="holder064193_v81"/>
+ <triangular vertex1="holder064193_v46" vertex2="holder064193_v48" vertex3="holder064193_v81"/>
+ <triangular vertex1="holder064193_v48" vertex2="holder064193_v50" vertex3="holder064193_v81"/>
+ <triangular vertex1="holder064193_v68" vertex2="holder064193_v76" vertex3="holder064193_v81"/>
+ <triangular vertex1="holder064193_v86" vertex2="holder064193_v72" vertex3="holder064193_v81"/>
+ <triangular vertex1="holder064193_v87" vertex2="holder064193_v86" vertex3="holder064193_v81"/>
+ <triangular vertex1="holder064193_v85" vertex2="holder064193_v87" vertex3="holder064193_v81"/>
+ <triangular vertex1="holder064193_v88" vertex2="holder064193_v72" vertex3="holder064193_v86"/>
+ <triangular vertex1="holder064193_v77" vertex2="holder064193_v72" vertex3="holder064193_v88"/>
+ <triangular vertex1="holder064193_v12" vertex2="holder064193_v68" vertex3="holder064193_v69"/>
+ <triangular vertex1="holder064193_v24" vertex2="holder064193_v89" vertex3="holder064193_v68"/>
+ <triangular vertex1="holder064193_v89" vertex2="holder064193_v90" vertex3="holder064193_v68"/>
+ <triangular vertex1="holder064193_v90" vertex2="holder064193_v76" vertex3="holder064193_v68"/>
+ <triangular vertex1="holder064193_v12" vertex2="holder064193_v14" vertex3="holder064193_v68"/>
+ <triangular vertex1="holder064193_v14" vertex2="holder064193_v16" vertex3="holder064193_v68"/>
+ <triangular vertex1="holder064193_v16" vertex2="holder064193_v18" vertex3="holder064193_v68"/>
+ <triangular vertex1="holder064193_v18" vertex2="holder064193_v20" vertex3="holder064193_v68"/>
+ <triangular vertex1="holder064193_v20" vertex2="holder064193_v22" vertex3="holder064193_v68"/>
+ <triangular vertex1="holder064193_v22" vertex2="holder064193_v24" vertex3="holder064193_v68"/>
+ <triangular vertex1="holder064193_v91" vertex2="holder064193_v80" vertex3="holder064193_v32"/>
+ <triangular vertex1="holder064193_v69" vertex2="holder064193_v72" vertex3="holder064193_v32"/>
+ <triangular vertex1="holder064193_v80" vertex2="holder064193_v69" vertex3="holder064193_v32"/>
+ <triangular vertex1="holder064193_v32" vertex2="holder064193_v72" vertex3="holder064193_v30"/>
+ <triangular vertex1="holder064193_v91" vertex2="holder064193_v32" vertex3="holder064193_v34"/>
+ <triangular vertex1="holder064193_v30" vertex2="holder064193_v72" vertex3="holder064193_v29"/>
+ <triangular vertex1="holder064193_v92" vertex2="holder064193_v93" vertex3="holder064193_v36"/>
+ <triangular vertex1="holder064193_v93" vertex2="holder064193_v91" vertex3="holder064193_v36"/>
+ <triangular vertex1="holder064193_v91" vertex2="holder064193_v34" vertex3="holder064193_v36"/>
+ <triangular vertex1="holder064193_v70" vertex2="holder064193_v92" vertex3="holder064193_v38"/>
+ <triangular vertex1="holder064193_v92" vertex2="holder064193_v36" vertex3="holder064193_v38"/>
+ <triangular vertex1="holder064193_v29" vertex2="holder064193_v72" vertex3="holder064193_v26"/>
+ <triangular vertex1="holder064193_v26" vertex2="holder064193_v72" vertex3="holder064193_v71"/>
+ <triangular vertex1="holder064193_v81" vertex2="holder064193_v72" vertex3="holder064193_v94"/>
+ <triangular vertex1="holder064193_v95" vertex2="holder064193_v81" vertex3="holder064193_v94"/>
+ <triangular vertex1="holder064193_v96" vertex2="holder064193_v95" vertex3="holder064193_v97"/>
+ <triangular vertex1="holder064193_v98" vertex2="holder064193_v96" vertex3="holder064193_v97"/>
+ <triangular vertex1="holder064193_v95" vertex2="holder064193_v94" vertex3="holder064193_v97"/>
+ <triangular vertex1="holder064193_v98" vertex2="holder064193_v97" vertex3="holder064193_v99"/>
+ <triangular vertex1="holder064193_v100" vertex2="holder064193_v98" vertex3="holder064193_v101"/>
+ <triangular vertex1="holder064193_v98" vertex2="holder064193_v99" vertex3="holder064193_v101"/>
+ <triangular vertex1="holder064193_v102" vertex2="holder064193_v100" vertex3="holder064193_v103"/>
+ <triangular vertex1="holder064193_v104" vertex2="holder064193_v102" vertex3="holder064193_v103"/>
+ <triangular vertex1="holder064193_v100" vertex2="holder064193_v101" vertex3="holder064193_v103"/>
+ <triangular vertex1="holder064193_v104" vertex2="holder064193_v103" vertex3="holder064193_v105"/>
+ <triangular vertex1="holder064193_v106" vertex2="holder064193_v104" vertex3="holder064193_v107"/>
+ <triangular vertex1="holder064193_v107" vertex2="holder064193_v104" vertex3="holder064193_v105"/>
+ <triangular vertex1="holder064193_v107" vertex2="holder064193_v108" vertex3="holder064193_v109"/>
+ <triangular vertex1="holder064193_v106" vertex2="holder064193_v107" vertex3="holder064193_v109"/>
+ <triangular vertex1="holder064193_v108" vertex2="holder064193_v110" vertex3="holder064193_v109"/>
+ <triangular vertex1="holder064193_v109" vertex2="holder064193_v110" vertex3="holder064193_v111"/>
+ <triangular vertex1="holder064193_v112" vertex2="holder064193_v113" vertex3="holder064193_v114"/>
+ <triangular vertex1="holder064193_v115" vertex2="holder064193_v112" vertex3="holder064193_v114"/>
+ <triangular vertex1="holder064193_v116" vertex2="holder064193_v114" vertex3="holder064193_v117"/>
+ <triangular vertex1="holder064193_v116" vertex2="holder064193_v115" vertex3="holder064193_v114"/>
+ <triangular vertex1="holder064193_v118" vertex2="holder064193_v117" vertex3="holder064193_v119"/>
+ <triangular vertex1="holder064193_v118" vertex2="holder064193_v116" vertex3="holder064193_v117"/>
+ <triangular vertex1="holder064193_v120" vertex2="holder064193_v119" vertex3="holder064193_v121"/>
+ <triangular vertex1="holder064193_v120" vertex2="holder064193_v118" vertex3="holder064193_v119"/>
+ <triangular vertex1="holder064193_v122" vertex2="holder064193_v123" vertex3="holder064193_v124"/>
+ <triangular vertex1="holder064193_v122" vertex2="holder064193_v121" vertex3="holder064193_v123"/>
+ <triangular vertex1="holder064193_v122" vertex2="holder064193_v120" vertex3="holder064193_v121"/>
+ <triangular vertex1="holder064193_v125" vertex2="holder064193_v122" vertex3="holder064193_v124"/>
+ <triangular vertex1="holder064193_v126" vertex2="holder064193_v124" vertex3="holder064193_v127"/>
+ <triangular vertex1="holder064193_v126" vertex2="holder064193_v125" vertex3="holder064193_v124"/>
+ <triangular vertex1="holder064193_v128" vertex2="holder064193_v127" vertex3="holder064193_v129"/>
+ <triangular vertex1="holder064193_v128" vertex2="holder064193_v126" vertex3="holder064193_v127"/>
+ <triangular vertex1="holder064193_v130" vertex2="holder064193_v131" vertex3="holder064193_v132"/>
+ <triangular vertex1="holder064193_v130" vertex2="holder064193_v129" vertex3="holder064193_v131"/>
+ <triangular vertex1="holder064193_v130" vertex2="holder064193_v128" vertex3="holder064193_v129"/>
+ <triangular vertex1="holder064193_v133" vertex2="holder064193_v130" vertex3="holder064193_v132"/>
+ <triangular vertex1="holder064193_v134" vertex2="holder064193_v135" vertex3="holder064193_v111"/>
+ <triangular vertex1="holder064193_v134" vertex2="holder064193_v132" vertex3="holder064193_v135"/>
+ <triangular vertex1="holder064193_v134" vertex2="holder064193_v133" vertex3="holder064193_v132"/>
+ <triangular vertex1="holder064193_v110" vertex2="holder064193_v134" vertex3="holder064193_v111"/>
+ <triangular vertex1="holder064193_v112" vertex2="holder064193_v27" vertex3="holder064193_v136"/>
+ <triangular vertex1="holder064193_v137" vertex2="holder064193_v138" vertex3="holder064193_v41"/>
+ <triangular vertex1="holder064193_v39" vertex2="holder064193_v137" vertex3="holder064193_v41"/>
+ <triangular vertex1="holder064193_v112" vertex2="holder064193_v136" vertex3="holder064193_v139"/>
+ <triangular vertex1="holder064193_v140" vertex2="holder064193_v7" vertex3="holder064193_v5"/>
+ <triangular vertex1="holder064193_v7" vertex2="holder064193_v140" vertex3="holder064193_v10"/>
+ <triangular vertex1="holder064193_v138" vertex2="holder064193_v141" vertex3="holder064193_v43"/>
+ <triangular vertex1="holder064193_v41" vertex2="holder064193_v138" vertex3="holder064193_v43"/>
+ <triangular vertex1="holder064193_v10" vertex2="holder064193_v140" vertex3="holder064193_v11"/>
+ <triangular vertex1="holder064193_v112" vertex2="holder064193_v139" vertex3="holder064193_v142"/>
+ <triangular vertex1="holder064193_v140" vertex2="holder064193_v5" vertex3="holder064193_v2"/>
+ <triangular vertex1="holder064193_v141" vertex2="holder064193_v143" vertex3="holder064193_v45"/>
+ <triangular vertex1="holder064193_v43" vertex2="holder064193_v141" vertex3="holder064193_v45"/>
+ <triangular vertex1="holder064193_v140" vertex2="holder064193_v2" vertex3="holder064193_v1"/>
+ <triangular vertex1="holder064193_v112" vertex2="holder064193_v142" vertex3="holder064193_v144"/>
+ <triangular vertex1="holder064193_v140" vertex2="holder064193_v1" vertex3="holder064193_v145"/>
+ <triangular vertex1="holder064193_v112" vertex2="holder064193_v144" vertex3="holder064193_v146"/>
+ <triangular vertex1="holder064193_v140" vertex2="holder064193_v145" vertex3="holder064193_v147"/>
+ <triangular vertex1="holder064193_v140" vertex2="holder064193_v147" vertex3="holder064193_v148"/>
+ <triangular vertex1="holder064193_v149" vertex2="holder064193_v51" vertex3="holder064193_v113"/>
+ <triangular vertex1="holder064193_v150" vertex2="holder064193_v149" vertex3="holder064193_v113"/>
+ <triangular vertex1="holder064193_v151" vertex2="holder064193_v150" vertex3="holder064193_v113"/>
+ <triangular vertex1="holder064193_v152" vertex2="holder064193_v151" vertex3="holder064193_v113"/>
+ <triangular vertex1="holder064193_v153" vertex2="holder064193_v152" vertex3="holder064193_v113"/>
+ <triangular vertex1="holder064193_v154" vertex2="holder064193_v153" vertex3="holder064193_v113"/>
+ <triangular vertex1="holder064193_v45" vertex2="holder064193_v143" vertex3="holder064193_v113"/>
+ <triangular vertex1="holder064193_v47" vertex2="holder064193_v45" vertex3="holder064193_v113"/>
+ <triangular vertex1="holder064193_v49" vertex2="holder064193_v47" vertex3="holder064193_v113"/>
+ <triangular vertex1="holder064193_v51" vertex2="holder064193_v49" vertex3="holder064193_v113"/>
+ <triangular vertex1="holder064193_v143" vertex2="holder064193_v155" vertex3="holder064193_v113"/>
+ <triangular vertex1="holder064193_v13" vertex2="holder064193_v140" vertex3="holder064193_v155"/>
+ <triangular vertex1="holder064193_v11" vertex2="holder064193_v140" vertex3="holder064193_v13"/>
+ <triangular vertex1="holder064193_v154" vertex2="holder064193_v113" vertex3="holder064193_v112"/>
+ <triangular vertex1="holder064193_v146" vertex2="holder064193_v154" vertex3="holder064193_v112"/>
+ <triangular vertex1="holder064193_v140" vertex2="holder064193_v148" vertex3="holder064193_v112"/>
+ <triangular vertex1="holder064193_v156" vertex2="holder064193_v25" vertex3="holder064193_v155"/>
+ <triangular vertex1="holder064193_v157" vertex2="holder064193_v156" vertex3="holder064193_v155"/>
+ <triangular vertex1="holder064193_v143" vertex2="holder064193_v157" vertex3="holder064193_v155"/>
+ <triangular vertex1="holder064193_v15" vertex2="holder064193_v13" vertex3="holder064193_v155"/>
+ <triangular vertex1="holder064193_v17" vertex2="holder064193_v15" vertex3="holder064193_v155"/>
+ <triangular vertex1="holder064193_v19" vertex2="holder064193_v17" vertex3="holder064193_v155"/>
+ <triangular vertex1="holder064193_v21" vertex2="holder064193_v19" vertex3="holder064193_v155"/>
+ <triangular vertex1="holder064193_v23" vertex2="holder064193_v21" vertex3="holder064193_v155"/>
+ <triangular vertex1="holder064193_v25" vertex2="holder064193_v23" vertex3="holder064193_v155"/>
+ <triangular vertex1="holder064193_v112" vertex2="holder064193_v148" vertex3="holder064193_v33"/>
+ <triangular vertex1="holder064193_v112" vertex2="holder064193_v33" vertex3="holder064193_v31"/>
+ <triangular vertex1="holder064193_v148" vertex2="holder064193_v158" vertex3="holder064193_v35"/>
+ <triangular vertex1="holder064193_v33" vertex2="holder064193_v148" vertex3="holder064193_v35"/>
+ <triangular vertex1="holder064193_v112" vertex2="holder064193_v31" vertex3="holder064193_v28"/>
+ <triangular vertex1="holder064193_v158" vertex2="holder064193_v159" vertex3="holder064193_v37"/>
+ <triangular vertex1="holder064193_v35" vertex2="holder064193_v158" vertex3="holder064193_v37"/>
+ <triangular vertex1="holder064193_v159" vertex2="holder064193_v137" vertex3="holder064193_v39"/>
+ <triangular vertex1="holder064193_v37" vertex2="holder064193_v159" vertex3="holder064193_v39"/>
+ <triangular vertex1="holder064193_v112" vertex2="holder064193_v28" vertex3="holder064193_v27"/>
+ <triangular vertex1="holder064193_v160" vertex2="holder064193_v161" vertex3="holder064193_v162"/>
+ <triangular vertex1="holder064193_v163" vertex2="holder064193_v160" vertex3="holder064193_v162"/>
+ <triangular vertex1="holder064193_v164" vertex2="holder064193_v162" vertex3="holder064193_v165"/>
+ <triangular vertex1="holder064193_v164" vertex2="holder064193_v163" vertex3="holder064193_v162"/>
+ <triangular vertex1="holder064193_v166" vertex2="holder064193_v165" vertex3="holder064193_v167"/>
+ <triangular vertex1="holder064193_v166" vertex2="holder064193_v164" vertex3="holder064193_v165"/>
+ <triangular vertex1="holder064193_v168" vertex2="holder064193_v167" vertex3="holder064193_v169"/>
+ <triangular vertex1="holder064193_v168" vertex2="holder064193_v166" vertex3="holder064193_v167"/>
+ <triangular vertex1="holder064193_v170" vertex2="holder064193_v171" vertex3="holder064193_v172"/>
+ <triangular vertex1="holder064193_v170" vertex2="holder064193_v169" vertex3="holder064193_v171"/>
+ <triangular vertex1="holder064193_v170" vertex2="holder064193_v168" vertex3="holder064193_v169"/>
+ <triangular vertex1="holder064193_v173" vertex2="holder064193_v172" vertex3="holder064193_v174"/>
+ <triangular vertex1="holder064193_v173" vertex2="holder064193_v170" vertex3="holder064193_v172"/>
+ <triangular vertex1="holder064193_v175" vertex2="holder064193_v173" vertex3="holder064193_v174"/>
+ <triangular vertex1="holder064193_v176" vertex2="holder064193_v177" vertex3="holder064193_v178"/>
+ <triangular vertex1="holder064193_v176" vertex2="holder064193_v174" vertex3="holder064193_v177"/>
+ <triangular vertex1="holder064193_v176" vertex2="holder064193_v175" vertex3="holder064193_v174"/>
+ <triangular vertex1="holder064193_v179" vertex2="holder064193_v176" vertex3="holder064193_v178"/>
+ <triangular vertex1="holder064193_v180" vertex2="holder064193_v181" vertex3="holder064193_v182"/>
+ <triangular vertex1="holder064193_v180" vertex2="holder064193_v178" vertex3="holder064193_v181"/>
+ <triangular vertex1="holder064193_v180" vertex2="holder064193_v179" vertex3="holder064193_v178"/>
+ <triangular vertex1="holder064193_v183" vertex2="holder064193_v182" vertex3="holder064193_v155"/>
+ <triangular vertex1="holder064193_v183" vertex2="holder064193_v180" vertex3="holder064193_v182"/>
+ <triangular vertex1="holder064193_v140" vertex2="holder064193_v183" vertex3="holder064193_v155"/>
+ <triangular vertex1="holder064193_v55" vertex2="holder064193_v161" vertex3="holder064193_v52"/>
+ <triangular vertex1="holder064193_v52" vertex2="holder064193_v161" vertex3="holder064193_v160"/>
+ <triangular vertex1="holder064193_v64" vertex2="holder064193_v66" vertex3="holder064193_v178"/>
+ <triangular vertex1="holder064193_v66" vertex2="holder064193_v181" vertex3="holder064193_v178"/>
+ <triangular vertex1="holder064193_v59" vertex2="holder064193_v60" vertex3="holder064193_v167"/>
+ <triangular vertex1="holder064193_v165" vertex2="holder064193_v59" vertex3="holder064193_v167"/>
+ <triangular vertex1="holder064193_v64" vertex2="holder064193_v178" vertex3="holder064193_v177"/>
+ <triangular vertex1="holder064193_v167" vertex2="holder064193_v60" vertex3="holder064193_v169"/>
+ <triangular vertex1="holder064193_v62" vertex2="holder064193_v64" vertex3="holder064193_v174"/>
+ <triangular vertex1="holder064193_v64" vertex2="holder064193_v177" vertex3="holder064193_v174"/>
+ <triangular vertex1="holder064193_v106" vertex2="holder064193_v109" vertex3="holder064193_v104"/>
+ <triangular vertex1="holder064193_v60" vertex2="holder064193_v62" vertex3="holder064193_v171"/>
+ <triangular vertex1="holder064193_v109" vertex2="holder064193_v111" vertex3="holder064193_v104"/>
+ <triangular vertex1="holder064193_v169" vertex2="holder064193_v60" vertex3="holder064193_v171"/>
+ <triangular vertex1="holder064193_v111" vertex2="holder064193_v135" vertex3="holder064193_v104"/>
+ <triangular vertex1="holder064193_v62" vertex2="holder064193_v174" vertex3="holder064193_v172"/>
+ <triangular vertex1="holder064193_v171" vertex2="holder064193_v62" vertex3="holder064193_v172"/>
+ <triangular vertex1="holder064193_v135" vertex2="holder064193_v132" vertex3="holder064193_v102"/>
+ <triangular vertex1="holder064193_v132" vertex2="holder064193_v131" vertex3="holder064193_v102"/>
+ <triangular vertex1="holder064193_v104" vertex2="holder064193_v135" vertex3="holder064193_v102"/>
+ <triangular vertex1="holder064193_v131" vertex2="holder064193_v129" vertex3="holder064193_v100"/>
+ <triangular vertex1="holder064193_v129" vertex2="holder064193_v127" vertex3="holder064193_v100"/>
+ <triangular vertex1="holder064193_v102" vertex2="holder064193_v131" vertex3="holder064193_v100"/>
+ <triangular vertex1="holder064193_v127" vertex2="holder064193_v124" vertex3="holder064193_v98"/>
+ <triangular vertex1="holder064193_v100" vertex2="holder064193_v127" vertex3="holder064193_v98"/>
+ <triangular vertex1="holder064193_v96" vertex2="holder064193_v98" vertex3="holder064193_v123"/>
+ <triangular vertex1="holder064193_v98" vertex2="holder064193_v124" vertex3="holder064193_v123"/>
+ <triangular vertex1="holder064193_v96" vertex2="holder064193_v123" vertex3="holder064193_v121"/>
+ <triangular vertex1="holder064193_v95" vertex2="holder064193_v96" vertex3="holder064193_v119"/>
+ <triangular vertex1="holder064193_v96" vertex2="holder064193_v121" vertex3="holder064193_v119"/>
+ <triangular vertex1="holder064193_v95" vertex2="holder064193_v119" vertex3="holder064193_v117"/>
+ <triangular vertex1="holder064193_v81" vertex2="holder064193_v95" vertex3="holder064193_v114"/>
+ <triangular vertex1="holder064193_v95" vertex2="holder064193_v117" vertex3="holder064193_v114"/>
+ <triangular vertex1="holder064193_v81" vertex2="holder064193_v114" vertex3="holder064193_v113"/>
+ <triangular vertex1="holder064193_v68" vertex2="holder064193_v81" vertex3="holder064193_v155"/>
+ <triangular vertex1="holder064193_v81" vertex2="holder064193_v113" vertex3="holder064193_v155"/>
+ <triangular vertex1="holder064193_v55" vertex2="holder064193_v54" vertex3="holder064193_v161"/>
+ <triangular vertex1="holder064193_v54" vertex2="holder064193_v57" vertex3="holder064193_v161"/>
+ <triangular vertex1="holder064193_v66" vertex2="holder064193_v68" vertex3="holder064193_v182"/>
+ <triangular vertex1="holder064193_v68" vertex2="holder064193_v155" vertex3="holder064193_v182"/>
+ <triangular vertex1="holder064193_v57" vertex2="holder064193_v59" vertex3="holder064193_v162"/>
+ <triangular vertex1="holder064193_v161" vertex2="holder064193_v57" vertex3="holder064193_v162"/>
+ <triangular vertex1="holder064193_v66" vertex2="holder064193_v182" vertex3="holder064193_v181"/>
+ <triangular vertex1="holder064193_v162" vertex2="holder064193_v59" vertex3="holder064193_v165"/>
+ <triangular vertex1="holder064193_v164" vertex2="holder064193_v58" vertex3="holder064193_v163"/>
+ <triangular vertex1="holder064193_v166" vertex2="holder064193_v58" vertex3="holder064193_v164"/>
+ <triangular vertex1="holder064193_v166" vertex2="holder064193_v61" vertex3="holder064193_v58"/>
+ <triangular vertex1="holder064193_v179" vertex2="holder064193_v180" vertex3="holder064193_v67"/>
+ <triangular vertex1="holder064193_v179" vertex2="holder064193_v67" vertex3="holder064193_v65"/>
+ <triangular vertex1="holder064193_v176" vertex2="holder064193_v179" vertex3="holder064193_v65"/>
+ <triangular vertex1="holder064193_v168" vertex2="holder064193_v61" vertex3="holder064193_v166"/>
+ <triangular vertex1="holder064193_v175" vertex2="holder064193_v176" vertex3="holder064193_v65"/>
+ <triangular vertex1="holder064193_v175" vertex2="holder064193_v65" vertex3="holder064193_v63"/>
+ <triangular vertex1="holder064193_v170" vertex2="holder064193_v61" vertex3="holder064193_v168"/>
+ <triangular vertex1="holder064193_v105" vertex2="holder064193_v134" vertex3="holder064193_v110"/>
+ <triangular vertex1="holder064193_v170" vertex2="holder064193_v63" vertex3="holder064193_v61"/>
+ <triangular vertex1="holder064193_v105" vertex2="holder064193_v110" vertex3="holder064193_v108"/>
+ <triangular vertex1="holder064193_v105" vertex2="holder064193_v108" vertex3="holder064193_v107"/>
+ <triangular vertex1="holder064193_v173" vertex2="holder064193_v175" vertex3="holder064193_v63"/>
+ <triangular vertex1="holder064193_v173" vertex2="holder064193_v63" vertex3="holder064193_v170"/>
+ <triangular vertex1="holder064193_v103" vertex2="holder064193_v133" vertex3="holder064193_v134"/>
+ <triangular vertex1="holder064193_v103" vertex2="holder064193_v130" vertex3="holder064193_v133"/>
+ <triangular vertex1="holder064193_v103" vertex2="holder064193_v134" vertex3="holder064193_v105"/>
+ <triangular vertex1="holder064193_v101" vertex2="holder064193_v128" vertex3="holder064193_v130"/>
+ <triangular vertex1="holder064193_v101" vertex2="holder064193_v126" vertex3="holder064193_v128"/>
+ <triangular vertex1="holder064193_v101" vertex2="holder064193_v130" vertex3="holder064193_v103"/>
+ <triangular vertex1="holder064193_v99" vertex2="holder064193_v126" vertex3="holder064193_v101"/>
+ <triangular vertex1="holder064193_v125" vertex2="holder064193_v126" vertex3="holder064193_v99"/>
+ <triangular vertex1="holder064193_v122" vertex2="holder064193_v99" vertex3="holder064193_v97"/>
+ <triangular vertex1="holder064193_v122" vertex2="holder064193_v125" vertex3="holder064193_v99"/>
+ <triangular vertex1="holder064193_v120" vertex2="holder064193_v122" vertex3="holder064193_v97"/>
+ <triangular vertex1="holder064193_v118" vertex2="holder064193_v97" vertex3="holder064193_v94"/>
+ <triangular vertex1="holder064193_v118" vertex2="holder064193_v120" vertex3="holder064193_v97"/>
+ <triangular vertex1="holder064193_v116" vertex2="holder064193_v118" vertex3="holder064193_v94"/>
+ <triangular vertex1="holder064193_v115" vertex2="holder064193_v94" vertex3="holder064193_v72"/>
+ <triangular vertex1="holder064193_v115" vertex2="holder064193_v116" vertex3="holder064193_v94"/>
+ <triangular vertex1="holder064193_v112" vertex2="holder064193_v115" vertex3="holder064193_v72"/>
+ <triangular vertex1="holder064193_v69" vertex2="holder064193_v112" vertex3="holder064193_v72"/>
+ <triangular vertex1="holder064193_v140" vertex2="holder064193_v112" vertex3="holder064193_v69"/>
+ <triangular vertex1="holder064193_v160" vertex2="holder064193_v53" vertex3="holder064193_v52"/>
+ <triangular vertex1="holder064193_v160" vertex2="holder064193_v56" vertex3="holder064193_v53"/>
+ <triangular vertex1="holder064193_v183" vertex2="holder064193_v140" vertex3="holder064193_v69"/>
+ <triangular vertex1="holder064193_v183" vertex2="holder064193_v69" vertex3="holder064193_v67"/>
+ <triangular vertex1="holder064193_v163" vertex2="holder064193_v58" vertex3="holder064193_v56"/>
+ <triangular vertex1="holder064193_v163" vertex2="holder064193_v56" vertex3="holder064193_v160"/>
+ <triangular vertex1="holder064193_v180" vertex2="holder064193_v183" vertex3="holder064193_v67"/>
+ <triangular vertex1="holder064193_v50" vertex2="holder064193_v51" vertex3="holder064193_v149"/>
+ <triangular vertex1="holder064193_v82" vertex2="holder064193_v50" vertex3="holder064193_v149"/>
+ <triangular vertex1="holder064193_v83" vertex2="holder064193_v82" vertex3="holder064193_v150"/>
+ <triangular vertex1="holder064193_v82" vertex2="holder064193_v149" vertex3="holder064193_v150"/>
+ <triangular vertex1="holder064193_v84" vertex2="holder064193_v83" vertex3="holder064193_v151"/>
+ <triangular vertex1="holder064193_v83" vertex2="holder064193_v150" vertex3="holder064193_v151"/>
+ <triangular vertex1="holder064193_v85" vertex2="holder064193_v84" vertex3="holder064193_v152"/>
+ <triangular vertex1="holder064193_v84" vertex2="holder064193_v151" vertex3="holder064193_v152"/>
+ <triangular vertex1="holder064193_v87" vertex2="holder064193_v85" vertex3="holder064193_v153"/>
+ <triangular vertex1="holder064193_v85" vertex2="holder064193_v152" vertex3="holder064193_v153"/>
+ <triangular vertex1="holder064193_v86" vertex2="holder064193_v87" vertex3="holder064193_v154"/>
+ <triangular vertex1="holder064193_v87" vertex2="holder064193_v153" vertex3="holder064193_v154"/>
+ <triangular vertex1="holder064193_v88" vertex2="holder064193_v86" vertex3="holder064193_v146"/>
+ <triangular vertex1="holder064193_v86" vertex2="holder064193_v154" vertex3="holder064193_v146"/>
+ <triangular vertex1="holder064193_v77" vertex2="holder064193_v88" vertex3="holder064193_v144"/>
+ <triangular vertex1="holder064193_v88" vertex2="holder064193_v146" vertex3="holder064193_v144"/>
+ <triangular vertex1="holder064193_v75" vertex2="holder064193_v77" vertex3="holder064193_v142"/>
+ <triangular vertex1="holder064193_v73" vertex2="holder064193_v75" vertex3="holder064193_v142"/>
+ <triangular vertex1="holder064193_v77" vertex2="holder064193_v144" vertex3="holder064193_v142"/>
+ <triangular vertex1="holder064193_v73" vertex2="holder064193_v142" vertex3="holder064193_v139"/>
+ <triangular vertex1="holder064193_v71" vertex2="holder064193_v73" vertex3="holder064193_v136"/>
+ <triangular vertex1="holder064193_v73" vertex2="holder064193_v139" vertex3="holder064193_v136"/>
+ <triangular vertex1="holder064193_v26" vertex2="holder064193_v71" vertex3="holder064193_v27"/>
+ <triangular vertex1="holder064193_v71" vertex2="holder064193_v136" vertex3="holder064193_v27"/>
+ <triangular vertex1="holder064193_v24" vertex2="holder064193_v25" vertex3="holder064193_v156"/>
+ <triangular vertex1="holder064193_v89" vertex2="holder064193_v24" vertex3="holder064193_v156"/>
+ <triangular vertex1="holder064193_v90" vertex2="holder064193_v89" vertex3="holder064193_v157"/>
+ <triangular vertex1="holder064193_v89" vertex2="holder064193_v156" vertex3="holder064193_v157"/>
+ <triangular vertex1="holder064193_v76" vertex2="holder064193_v90" vertex3="holder064193_v143"/>
+ <triangular vertex1="holder064193_v74" vertex2="holder064193_v76" vertex3="holder064193_v143"/>
+ <triangular vertex1="holder064193_v90" vertex2="holder064193_v157" vertex3="holder064193_v143"/>
+ <triangular vertex1="holder064193_v70" vertex2="holder064193_v74" vertex3="holder064193_v141"/>
+ <triangular vertex1="holder064193_v74" vertex2="holder064193_v143" vertex3="holder064193_v141"/>
+ <triangular vertex1="holder064193_v92" vertex2="holder064193_v70" vertex3="holder064193_v138"/>
+ <triangular vertex1="holder064193_v70" vertex2="holder064193_v141" vertex3="holder064193_v138"/>
+ <triangular vertex1="holder064193_v92" vertex2="holder064193_v138" vertex3="holder064193_v137"/>
+ <triangular vertex1="holder064193_v93" vertex2="holder064193_v92" vertex3="holder064193_v159"/>
+ <triangular vertex1="holder064193_v92" vertex2="holder064193_v137" vertex3="holder064193_v159"/>
+ <triangular vertex1="holder064193_v91" vertex2="holder064193_v93" vertex3="holder064193_v158"/>
+ <triangular vertex1="holder064193_v93" vertex2="holder064193_v159" vertex3="holder064193_v158"/>
+ <triangular vertex1="holder064193_v80" vertex2="holder064193_v91" vertex3="holder064193_v148"/>
+ <triangular vertex1="holder064193_v91" vertex2="holder064193_v158" vertex3="holder064193_v148"/>
+ <triangular vertex1="holder064193_v79" vertex2="holder064193_v80" vertex3="holder064193_v147"/>
+ <triangular vertex1="holder064193_v78" vertex2="holder064193_v79" vertex3="holder064193_v147"/>
+ <triangular vertex1="holder064193_v80" vertex2="holder064193_v148" vertex3="holder064193_v147"/>
+ <triangular vertex1="holder064193_v78" vertex2="holder064193_v147" vertex3="holder064193_v145"/>
+ <triangular vertex1="holder064193_v0" vertex2="holder064193_v78" vertex3="holder064193_v1"/>
+ <triangular vertex1="holder064193_v78" vertex2="holder064193_v145" vertex3="holder064193_v1"/>
+ </tessellated>
+ <box lunit="mm" name="worldsolid" x="1000" y="1000" z="1000"/>
+ </solids>
+ <structure>
+ <volume name="holder064193">
+ <materialref ref="G4_Si"/>
+ <solidref ref="holder064193_solid"/>
+ </volume>
+ </structure>
+ <setup name="Default" version="1.0">
+ <world ref="holder064193"/>
+ </setup>
+</gdml>
