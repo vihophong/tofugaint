@@ -1,0 +1,114 @@
+#**************
+#**
+#** Demonstrates the basic functionality of this example
+#**
+#**************
+
+/run/verbose 1
+/control/verbose 1
+/tracking/verbose 0
+/process/optical/verbose 1
+/run/initialize
+
+#/random/setSeeds 1706221035042 1706222552143
+
+/gps/verbose 0
+
+/gps/particle neutron
+#position
+/gps/pos/type Point
+/gps/pos/centre 0 0 0 cm
+#Angle
+/gps/ang/type iso
+
+# Energy(default)
+#/gps/ene/mono 1000 keV
+
+/gps/ene/type Arb
+/gps/hist/type arb
+
+
+/gps/hist/point 0 0
+/gps/hist/point 0.1 0.0261658
+/gps/hist/point 0.3 0.0396206
+/gps/hist/point 0.5 0.0447298
+/gps/hist/point 0.7 0.0463135
+/gps/hist/point 0.9 0.0458728
+/gps/hist/point 1.1 0.0443511
+/gps/hist/point 1.3 0.0421361
+/gps/hist/point 1.5 0.039593
+/gps/hist/point 1.7 0.036712
+/gps/hist/point 1.9 0.033831
+/gps/hist/point 2.1 0.0310065
+/gps/hist/point 2.3 0.0282384
+/gps/hist/point 2.5 0.0256012
+/gps/hist/point 2.7 0.0230948
+/gps/hist/point 2.9 0.0208363
+/gps/hist/point 3.1 0.0187063
+/gps/hist/point 3.3 0.0167048
+/gps/hist/point 3.5 0.0149007
+/gps/hist/point 3.7 0.0132702
+/gps/hist/point 3.9 0.011787
+/gps/hist/point 4.1 0.0104498
+/gps/hist/point 4.3 0.00924893
+/gps/hist/point 4.5 0.00817613
+/gps/hist/point 4.7 0.00721901
+/gps/hist/point 4.9 0.00636931
+/gps/hist/point 5.1 0.00561601
+/gps/hist/point 5.3 0.00494672
+/gps/hist/point 5.5 0.00435592
+/gps/hist/point 5.7 0.00383123
+/gps/hist/point 5.9 0.0033685
+/gps/hist/point 6.1 0.00295949
+/gps/hist/point 6.3 0.00259868
+/gps/hist/point 6.5 0.00227918
+/gps/hist/point 6.7 0.00199824
+/gps/hist/point 6.9 0.00175173
+/gps/hist/point 7.1 0.00153414
+/gps/hist/point 7.3 0.00134341
+/gps/hist/point 7.5 0.00117608
+#
+# Linear interpolation between the data points is required to obtain
+# the smooth energy spectrum
+/gps/hist/inter Lin
+
+/run/printProgress 10
+
+#/vis/disable
+#/random/setSavingFlag true
+#/LXe/saveThreshold 1400
+#/LXe/pmtThreshold 4
+#/LXe/forceDrawNoPhotons true
+#/run/beamOn 200
+
+#/vis/enable
+#/LXe/eventVerbose 1
+#/process/optical/scintillation/setTrackSecondariesFirst false
+#/run/beamOn 5
+#
+
+#/tracking/verbose 1
+#/LXe/forceDrawPhotons true
+#/LXe/detector/MainScintYield 100
+#/process/optical/scintillation/setTrackSecondariesFirst true
+#/run/beamOn 1
+
+#/vis/enable
+/vis/disable
+/random/setSavingFlag false
+/LXe/saveThreshold 1400
+/LXe/pmtThreshold 4
+#/LXe/forceDrawPhotons true
+/LXe/forceDrawNoPhotons true
+
+/analysis/setFileName LXe
+/analysis/h1/set 3 100 0 10000
+/analysis/h1/set 4 100 0 100
+/analysis/h1/set 5 100 0 10000
+
+#/run/beamOn 1000000
+
+/run/beamOn 1000000
+
+
+

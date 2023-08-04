@@ -1,0 +1,202 @@
+#**************
+#**
+#** Demonstrates the basic functionality of this example
+#**
+#**************
+
+/run/verbose 1
+/control/verbose 1
+/tracking/verbose 0
+/process/optical/verbose 1
+/run/initialize
+
+#/random/setSeeds 1706221035042 1706222552143
+
+/gps/verbose 0
+
+/gps/particle neutron
+#position
+/gps/pos/type Point
+/gps/pos/centre 0 0 0 cm
+#Angle
+/gps/ang/type iso
+
+# Energy(default)
+#/gps/ene/mono 1000 keV
+
+/gps/ene/type Arb
+/gps/hist/type arb
+#
+# The Cf-252 neutron energy spectrum was taken from
+# ENDF/B-VIII 
+# 
+#
+#                Energy (MeV)  Rel. Yield
+#
+/gps/hist/point 0 0
+/gps/hist/point 0.00000000001 0.000000279974
+/gps/hist/point 0.00000000002 0.00000039593
+/gps/hist/point 0.00000000005 0.000000626052
+/gps/hist/point 0.0000000001 0.000000885506
+/gps/hist/point 0.0000000002 0.00000125224
+/gps/hist/point 0.0000000005 0.00000198034
+/gps/hist/point 0.000000001 0.00000279974
+/gps/hist/point 0.000000002 0.0000039593
+/gps/hist/point 0.000000005 0.00000626052
+/gps/hist/point 0.00000001 0.00000885506
+/gps/hist/point 0.00000002 0.0000125224
+/gps/hist/point 0.00000005 0.0000198034
+/gps/hist/point 0.0000001 0.0000279974
+/gps/hist/point 0.0000002 0.000039593
+/gps/hist/point 0.0000005 0.0000626052
+/gps/hist/point 0.000001 0.0000885506
+/gps/hist/point 0.000002 0.000125224
+/gps/hist/point 0.000005 0.000198034
+/gps/hist/point 0.00001 0.000279974
+/gps/hist/point 0.00002 0.00039593
+/gps/hist/point 0.00005 0.000626052
+/gps/hist/point 0.0001 0.000885369
+/gps/hist/point 0.0002 0.001252103
+/gps/hist/point 0.0005 0.001978962
+/gps/hist/point 0.001 0.002798366
+/gps/hist/point 0.002 0.003953793
+/gps/hist/point 0.005 0.006238482
+/gps/hist/point 0.01 0.008793092
+/gps/hist/point 0.025 0.013756335
+/gps/hist/point 0.03 0.015010917
+/gps/hist/point 0.035 0.016167722
+/gps/hist/point 0.045 0.018205902
+/gps/hist/point 0.055 0.019996195
+/gps/hist/point 0.07 0.022337347
+/gps/hist/point 0.085 0.024361755
+/gps/hist/point 0.1 0.026165819
+/gps/hist/point 0.13 0.02923686
+/gps/hist/point 0.16 0.031784585
+/gps/hist/point 0.2 0.034593967
+/gps/hist/point 0.25 0.03740335
+/gps/hist/point 0.3 0.039620559
+/gps/hist/point 0.37 0.041989254
+/gps/hist/point 0.46 0.04408252
+/gps/hist/point 0.5 0.044729779
+/gps/hist/point 0.6 0.04584527
+/gps/hist/point 0.7 0.0463135
+/gps/hist/point 0.85 0.046162014
+/gps/hist/point 1 0.04529441
+/gps/hist/point 1.2 0.043407717
+/gps/hist/point 1.5 0.039593016
+/gps/hist/point 2 0.03239053
+/gps/hist/point 2.4 0.026854393
+/gps/hist/point 2.7 0.023094778
+/gps/hist/point 3 0.019706993
+/gps/hist/point 3.3 0.01670481
+/gps/hist/point 3.5 0.014900745
+/gps/hist/point 3.7 0.013270202
+/gps/hist/point 3.9 0.011787013
+/gps/hist/point 4.1 0.010449802
+/gps/hist/point 4.3 0.009248929
+/gps/hist/point 4.5 0.00817613
+/gps/hist/point 4.7 0.007219012
+/gps/hist/point 4.9 0.006369311
+/gps/hist/point 5.1 0.005616011
+/gps/hist/point 5.3 0.004946717
+/gps/hist/point 5.5 0.00435592
+/gps/hist/point 5.7 0.003831227
+/gps/hist/point 5.9 0.003368505
+/gps/hist/point 6.1 0.002959492
+/gps/hist/point 6.3 0.002598679
+/gps/hist/point 6.5 0.002279181
+/gps/hist/point 6.7 0.001998242
+/gps/hist/point 6.9 0.001751733
+/gps/hist/point 7.1 0.001534143
+/gps/hist/point 7.3 0.001343408
+/gps/hist/point 7.5 0.001176085
+/gps/hist/point 7.7 0.001029418
+/gps/hist/point 7.9 0.000900793
+/gps/hist/point 8.1 0.000788417
+/gps/hist/point 8.3 0.000690089
+/gps/hist/point 8.5 0.00060388
+/gps/hist/point 8.7 0.00052855
+/gps/hist/point 8.9 0.000462722
+/gps/hist/point 9.1 0.000404882
+/gps/hist/point 9.3 0.00035434
+/gps/hist/point 9.5 0.000310134
+/gps/hist/point 9.7 0.000271298
+/gps/hist/point 9.9 0.000237283
+/gps/hist/point 10.1 0.000207399
+/gps/hist/point 10.3 0.00018137
+/gps/hist/point 10.5 0.00015851
+/gps/hist/point 10.7 0.000138679
+/gps/hist/point 10.9 0.000121217
+/gps/hist/point 11.1 0.000105999
+/gps/hist/point 11.3 0.0000926683
+/gps/hist/point 11.5 0.0000810176
+/gps/hist/point 11.7 0.000070813
+/gps/hist/point 11.9 0.000061889
+/gps/hist/point 12.1 0.0000540806
+/gps/hist/point 12.3 0.0000472362
+/gps/hist/point 12.5 0.0000412594
+/gps/hist/point 12.7 0.00003604
+/gps/hist/point 12.9 0.0000314541
+/gps/hist/point 13.1 0.0000274603
+/gps/hist/point 13.2 0.0000256425
+/gps/hist/point 13.4 0.0000223787
+/gps/hist/point 13.5 0.0000208913
+/gps/hist/point 13.7 0.0000182197
+/gps/hist/point 13.9 0.0000158923
+/gps/hist/point 14.1 0.0000138679
+/gps/hist/point 14.2 0.0000129438
+/gps/hist/point 14.4 0.0000112857
+/gps/hist/point 14.6 0.00000983973
+/gps/hist/point 15.3 0.000006087
+/gps/hist/point 16 0.00000376375
+/gps/hist/point 16.7 0.00000232463
+/gps/hist/point 17.4 0.00000143499
+/gps/hist/point 18.1 0.000000884405
+/gps/hist/point 18.8 0.000000543974
+/gps/hist/point 19.5 0.000000334234
+/gps/hist/point 20 0.000000235906
+#
+# Linear interpolation between the data points is required to obtain
+# the smooth energy spectrum
+/gps/hist/inter Lin
+
+/run/printProgress 10
+
+#/vis/disable
+#/random/setSavingFlag true
+#/LXe/saveThreshold 1400
+#/LXe/pmtThreshold 4
+#/LXe/forceDrawNoPhotons true
+#/run/beamOn 200
+
+#/vis/enable
+#/LXe/eventVerbose 1
+#/process/optical/scintillation/setTrackSecondariesFirst false
+#/run/beamOn 5
+#
+
+#/tracking/verbose 1
+#/LXe/forceDrawPhotons true
+#/LXe/detector/MainScintYield 100
+#/process/optical/scintillation/setTrackSecondariesFirst true
+#/run/beamOn 1
+
+#/vis/enable
+/vis/disable
+/random/setSavingFlag false
+/LXe/saveThreshold 1400
+/LXe/pmtThreshold 4
+#/LXe/forceDrawPhotons true
+/LXe/forceDrawNoPhotons true
+
+/analysis/setFileName LXe
+/analysis/h1/set 3 100 0 10000
+/analysis/h1/set 4 100 0 100
+/analysis/h1/set 5 100 0 10000
+
+#/run/beamOn 1000000
+
+/run/beamOn 500000
+
+
+
