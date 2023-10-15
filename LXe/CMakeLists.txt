@@ -51,6 +51,7 @@ set(LXe_SCRIPTS
     holdermapin.txt
     holdermapout.txt
     ana.C
+    det_eff.C
    )
 
 foreach(_script ${LXe_SCRIPTS})

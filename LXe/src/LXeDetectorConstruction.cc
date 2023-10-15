@@ -76,7 +76,7 @@
 #define SUSFRAMEONLY 1
 
 #define WGARI 1
-//#define WCLOVER 1
+#define WCLOVER 1
 
 G4bool LXeDetectorConstruction::fSphereOn = true;
 
