@@ -1,0 +1,62 @@
+#**************
+#**
+#** Demonstrates the basic functionality of this example
+#**
+#**************
+
+/run/verbose 1
+/control/verbose 1
+/tracking/verbose 0
+/process/optical/verbose 1
+/run/initialize
+
+/random/setSeeds 1706221035042 1706222552143
+
+/gps/verbose 0
+
+/gps/particle gamma
+# Energy(default)
+/gps/ene/mono 1000 keV
+
+
+/gps/pos/type Volume
+/gps/pos/shape Sphere
+/gps/pos/centre 0 -0.4 0 mm
+/gps/pos/radius 0.001 mm
+
+#Angle
+/gps/ang/type iso
+
+
+/run/printProgress 10
+
+#/vis/disable
+#/random/setSavingFlag true
+#/LXe/saveThreshold 1400
+#/LXe/pmtThreshold 4
+#/LXe/forceDrawNoPhotons true
+#/run/beamOn 200
+
+#/vis/enable
+#/LXe/eventVerbose 1
+#/process/optical/scintillation/setTrackSecondariesFirst false
+#/run/beamOn 5
+#
+
+#/tracking/verbose 1
+#/LXe/forceDrawPhotons true
+#/LXe/detector/MainScintYield 100
+#/process/optical/scintillation/setTrackSecondariesFirst true
+
+/vis/enable
+#/vis/disable
+/random/setSavingFlag false
+/LXe/saveThreshold 1400
+#/LXe/pmtThreshold 4
+/LXe/forceDrawPhotons true
+#/LXe/forceDrawNoPhotons true
+
+/analysis/setFileName LXe
+
+/run/beamOn 10000
+

@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Setup the project
 cmake_minimum_required(VERSION 3.16...3.21)
-project(LXe)
+project(LXe_implantDet)
 
 #----------------------------------------------------------------------------
 # Find Geant4 package, activating all available UI and Vis drivers by default
@@ -51,8 +51,14 @@ set(LXe_SCRIPTS
     holdermapin.txt
     holdermapout.txt
     ana.C
-    det_eff.C
+    Cf252.mac
+    Co60.mac
+    gmono.mac
+    nmono.mac
     haddall.sh
+    genpos.py
+    beta.mac
+    refzpos.txt
     runbash.sh
    )
 
